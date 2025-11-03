@@ -1,0 +1,14 @@
+# Core AI packages
+openai           # OpenAI API client
+huggingface-hub  # Hugging Face API client
+python-dotenv    # load environment variables from .env
+requests         # generic HTTP requests
+
+# Data science stack
+numpy
+pandas
+matplotlib
+
+# Dev tools
+black            # code formatter
+ruff             # linter / static analysis
