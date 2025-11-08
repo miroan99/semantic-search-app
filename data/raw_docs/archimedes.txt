@@ -1,0 +1,503 @@
+In order to enable the reader to arrive at a correct understanding of
+the place of Archimedes and of the significance of his work it is
+necessary to pass in review the course of development of Greek geometry
+from its first beginnings down to the time of Euclid and Archimedes.
+
+Greek authors from Herodotus downwards agree in saying that geometry was
+invented by the Egyptians and that it came into Greece from Egypt. One
+account says:--
+
+"Geometry is said by many to have been invented among the Egyptians, its
+origin being due to the measurement of plots of land. This was necessary
+there because of the rising of the Nile, which obliterated the
+boundaries appertaining to separate owners. Nor is it marvellous that
+the discovery of this and the other sciences should have arisen from
+such an occasion, since everything which moves in the sense of
+development will advance from the imperfect to the perfect. From
+sense-perception to reasoning, and from reasoning to understanding, is a
+natural transition. Just as among the Phoenicians, through commerce and
+exchange, an accurate knowledge of numbers was originated, so also among
+the Egyptians geometry was invented for the reason above stated.
+
+"Thales first went to Egypt and thence introduced this study into
+Greece."
+
+But it is clear that the geometry of the Egyptians was almost entirely
+practical and did not go beyond the requirements of the land-surveyor,
+farmer or merchant. They did indeed know, as far back as 2000 B.C., that
+in a triangle which has its sides proportional to 3, 4, 5 the angle
+contained by the two smaller sides is a right angle, and they used such
+a triangle as a practical means of drawing right angles. They had
+formulae, more or less inaccurate, for certain measurements, e.g. for the
+areas of certain triangles, parallel-trapezia, and circles. They had,
+further, in their construction of pyramids, to use the notion of similar
+right-angled triangles; they even had a name, _se-qet_, for the ratio of
+the half of the side of the base to the height, that is, for what we
+should call the _co-tangent_ of the angle of slope. But not a single
+general theorem in geometry can be traced to the Egyptians. Their
+knowledge that the triangle (3, 4, 5) is right angled is far from
+implying any knowledge of the general proposition (Eucl. I., 47) known
+by the name of Pythagoras. The science of geometry, in fact, remained to
+be discovered; and this required the genius for pure speculation which
+the Greeks possessed in the largest measure among all the nations of the
+world.
+
+Thales, who had travelled in Egypt and there learnt what the priests
+could teach him on the subject, introduced geometry into Greece. Almost
+the whole of Greek science and philosophy begins with Thales. His date
+was about 624-547 B.C. First of the Ionian philosophers, and declared
+one of the Seven Wise Men in 582-581, he shone in all fields, as
+astronomer, mathematician, engineer, statesman and man of business. In
+astronomy he predicted the solar eclipse of 28 May, 585, discovered the
+inequality of the four astronomical seasons, and counselled the use of
+the Little Bear instead of the Great Bear as a means of finding the
+pole. In geometry the following theorems are attributed to him--and
+their character shows how the Greeks had to begin at the very beginning
+of the theory--(1) that a circle is bisected by any diameter (Eucl. I.,
+Def. 17), (2) that the angles at the base of an isosceles triangle are
+equal (Eucl. I., 5), (3) that, if two straight lines cut one another,
+the vertically opposite angles are equal (Eucl. I., 15), (4) that, if
+two triangles have two angles and one side respectively equal, the
+triangles are equal in all respects (Eucl. I., 26). He is said (5) to
+have been the first to inscribe a right-angled triangle in a circle:
+which must mean that he was the first to discover that the angle in a
+semicircle is a right angle. He also solved two problems in practical
+geometry: (1) he showed how to measure the distance from the land of a
+ship at sea (for this he is said to have used the proposition numbered
+(4) above), and (2) he measured the heights of pyramids by means of the
+shadow thrown on the ground (this implies the use of similar triangles
+in the way that the Egyptians had used them in the construction of
+pyramids).
+
+After Thales come the Pythagoreans. We are told that the Pythagoreans
+were the first to use the term [Greek: mathemata] (literally "subjects
+of instruction") in the specialised sense of "mathematics"; they, too,
+first advanced mathematics as a study pursued for its own sake and made
+it a part of a liberal education. Pythagoras, son of Mnesarchus, was
+born in Samos about 572 B.C., and died at a great age (75 or 80) at
+Metapontum. His interests were as various as those of Thales; his
+travels, all undertaken in pursuit of knowledge, were probably even more
+extended. Like Thales, and perhaps at his suggestion, he visited Egypt
+and studied there for a long period (22 years, some say).
+
+It is difficult to disentangle from the body of Pythagorean doctrines
+the portions which are due to Pythagoras himself because of the habit
+which the members of the school had of attributing everything to the
+Master ([Greek: autos epha], _ipse dixit_). In astronomy two things at
+least may safely be attributed to him; he held that the earth is
+spherical in shape, and he recognised that the sun, moon and planets
+have an independent motion of their own in a direction contrary to that
+of the daily rotation; he seems, however, to have adhered to the
+geocentric view of the universe, and it was his successors who evolved
+the theory that the earth does not remain at the centre but revolves,
+like the other planets and the sun and moon, about the "central fire".
+Perhaps his most remarkable discovery was the dependence of the musical
+intervals on the lengths of vibrating strings, the proportion for the
+octave being 2 : 1, for the fifth 3 : 2 and for the fourth 4 : 3. In
+arithmetic he was the first to expound the theory of _means_ and of
+proportion as applied to commensurable quantities. He laid the
+foundation of the theory of numbers by considering the properties of
+numbers as such, namely, prime numbers, odd and even numbers, etc. By
+means of _figured_ numbers, square, oblong, triangular, etc.
+(represented by dots arranged in the form of the various figures) he
+showed the connexion between numbers and geometry. In view of all these
+properties of numbers, we can easily understand how the Pythagoreans
+came to "liken all things to numbers" and to find in the principles of
+numbers the principles of all things ("all things are numbers").
+
+We come now to Pythagoras's achievements in geometry. There is a story
+that, when he came home from Egypt and tried to found a school at Samos,
+he found the Samians indifferent, so that he had to take special
+measures to ensure that his geometry might not perish with him. Going to
+the gymnasium, he sought out a well-favoured youth who seemed likely to
+suit his purpose, and was withal poor, and bribed him to learn geometry
+by promising him sixpence for every proposition that he mastered. Very
+soon the youth got fascinated by the subject for its own sake, and
+Pythagoras rightly judged that he would gladly go on without the
+sixpence. He hinted, therefore, that he himself was poor and must try
+to earn his living instead of doing mathematics; whereupon the youth,
+rather than give up the study, volunteered to pay sixpence to Pythagoras
+for each proposition.
+
+In geometry Pythagoras set himself to lay the foundations of the
+subject, beginning with certain important definitions and investigating
+the fundamental principles. Of propositions attributed to him the most
+famous is, of course, the theorem that in a right-angled triangle the
+square on the hypotenuse is equal to the sum of the squares on the sides
+about the right angle (Eucl. I., 47); and, seeing that Greek tradition
+universally credits him with the proof of this theorem, we prefer to
+believe that tradition is right. This is to some extent confirmed by
+another tradition that Pythagoras discovered a general formula for
+finding two numbers such that the sum of their squares is a square
+number. This depends on the theory of the _gnomon_, which at first had
+an arithmetical signification corresponding to the geometrical use of it
+in Euclid, Book II. A figure in the shape of a _gnomon_ put round two
+sides of a square makes it into a larger square. Now consider the number
+1 represented by a dot. Round this place three other dots so that the
+four dots form a square (1 + 3 = 2^2). Round the four dots (on two
+adjacent sides of the square) place five dots at regular and equal
+distances, and we have another square (1 + 3 + 5 = 3^2); and so on. The
+successive odd numbers 1, 3, 5 ... were called _gnomons_, and the
+general formula is
+
+  1 + 3 + 5 + ... + (2n - 1) = n^2.
+
+Add the next odd number, i.e. 2n + 1, and we have n^2 + (2n + 1) = (n +
+1)^2. In order, then, to get two square numbers such that their sum is a
+square we have only to see that 2n + 1 is a square. Suppose that 2n + 1
+= m^2; then n = 1/2(m^2 - 1), and we have {1/2(m^2 - 1)}^2 + m^2 =
+{1/2(m^2 + 1)}^2, where m is any odd number; and this is the general
+formula attributed to Pythagoras.
+
+Proclus also attributes to Pythagoras the theory of proportionals and
+the construction of the five "cosmic figures," the five regular solids.
+
+One of the said solids, the dodecahedron, has twelve pentagonal faces,
+and the construction of a regular pentagon involves the cutting of a
+straight line "in extreme and mean ratio" (Eucl. II., 11, and VI., 30),
+which is a particular case of the method known as the _application of
+areas_. How much of this was due to Pythagoras himself we do not know;
+but the whole method was at all events fully worked out by the
+Pythagoreans and proved one of the most powerful of geometrical methods.
+The most elementary case appears in Euclid, I., 44, 45, where it is
+shown how to apply to a given straight line as base a parallelogram
+having a given angle (say a rectangle) and equal in area to any
+rectilineal figure; this construction is the geometrical equivalent of
+arithmetical _division_. The general case is that in which the
+parallelogram, though _applied_ to the straight line, overlaps it or
+falls short of it in such a way that the part of the parallelogram which
+extends beyond, or falls short of, the parallelogram of the same angle
+and breadth on the given straight line itself (exactly) as base is
+similar to another given parallelogram (Eucl. VI., 28, 29). This is the
+geometrical equivalent of the most general form of quadratic equation ax
+[+-] mx^2 = C, so far as it has real roots; while the condition that the
+roots may be real was also worked out (= Eucl. VI., 27). It is important
+to note that this method of _application of areas_ was directly used by
+Apollonius of Perga in formulating the fundamental properties of the
+three conic sections, which properties correspond to the equations of
+the conics in Cartesian co-ordinates; and the names given by Apollonius
+(for the first time) to the respective conics are taken from the theory,
+_parabola_ ([Greek: parabole]) meaning "application" (i.e. in this case
+the parallelogram is applied to the straight line exactly), _hyperbola_
+([Greek: hyperbole]), "exceeding" (i.e. in this case the parallelogram
+exceeds or overlaps the straight line), _ellipse_ ([Greek: elleipsis]),
+"falling short" (i.e. the parallelogram falls short of the straight
+line).
+
+Another problem solved by the Pythagoreans is that of drawing a
+rectilineal figure equal in area to one given rectilineal figure and
+similar to another. Plutarch mentions a doubt as to whether it was this
+problem or the proposition of Euclid I., 47, on the strength of which
+Pythagoras was said to have sacrificed an ox.
+
+The main particular applications of the theorem of the square on the
+hypotenuse (e.g. those in Euclid, Book II.) were also Pythagorean; the
+construction of a square equal to a given rectangle (Eucl. II., 14) is
+one of them and corresponds to the solution of the pure quadratic
+equation x^2 = ab.
+
+The Pythagoreans proved the theorem that the sum of the angles of any
+triangle is equal to two right angles (Eucl. I., 32).
+
+Speaking generally, we may say that the Pythagorean geometry covered the
+bulk of the subject-matter of Books I., II., IV., and VI. of Euclid
+(with the qualification, as regards Book VI., that the Pythagorean
+theory of proportion applied only to commensurable magnitudes). Our
+information about the origin of the propositions of Euclid, Book III.,
+is not so complete; but it is certain that the most important of them
+were well known to Hippocrates of Chios (who flourished in the second
+half of the fifth century, and lived perhaps from about 470 to 400
+B.C.), whence we conclude that the main propositions of Book III. were
+also included in the Pythagorean geometry.
+
+Lastly, the Pythagoreans discovered the existence of incommensurable
+lines, or of _irrationals_. This was, doubtless, first discovered with
+reference to the diagonal of a square which is incommensurable with the
+side, being in the ratio to it of [root]2 to 1. The Pythagorean proof of
+this particular case survives in Aristotle and in a proposition
+interpolated in Euclid's Book X.; it is by a _reductio ad absurdum_
+proving that, if the diagonal is commensurable with the side, the same
+number must be both odd and even. This discovery of the incommensurable
+was bound to cause geometers a great shock, because it showed that the
+theory of proportion invented by Pythagoras was not of universal
+application, and therefore that propositions proved by means of it were
+not really established. Hence the stories that the discovery of the
+irrational was for a time kept secret, and that the first person who
+divulged it perished by shipwreck. The fatal flaw thus revealed in the
+body of geometry was not removed till Eudoxus (408-355 B.C.) discovered
+the great theory of proportion (expounded in Euclid's Book V.), which is
+applicable to incommensurable as well as to commensurable magnitudes.
+
+By the time of Hippocrates of Chios the scope of Greek geometry was no
+longer even limited to the Elements; certain special problems were also
+attacked which were beyond the power of the geometry of the straight
+line and circle, and which were destined to play a great part in
+determining the direction taken by Greek geometry in its highest
+flights. The main problems in question were three: (1) the doubling of
+the cube, (2) the trisection of any angle, (3) the squaring of the
+circle; and from the time of Hippocrates onwards the investigation of
+these problems proceeded _pari passu_ with the completion of the body of
+the Elements.
+
+Hippocrates himself is an example of the concurrent study of the two
+departments. On the one hand, he was the first of the Greeks who is
+known to have compiled a book of Elements. This book, we may be sure,
+contained in particular the most important propositions about the circle
+included in Euclid, Book III. But a much more important proposition is
+attributed to Hippocrates; he is said to have been the first to prove
+that circles are to one another as the squares on their diameters (=
+Eucl. XII., 2), with the deduction that similar segments of circles are
+to one another as the squares on their bases. These propositions were
+used by him in his tract on the squaring of _lunes_, which was intended
+to lead up to the squaring of the circle. The latter problem is one
+which must have exercised practical geometers from time immemorial.
+Anaxagoras for instance (about 500-428 B.C.) is said to have worked at
+the problem while in prison. The essential portions of Hippocrates's
+tract are preserved in a passage of Simplicius (on Aristotle's
+_Physics_), which contains substantial fragments from Eudemus's _History
+of Geometry_. Hippocrates showed how to square three particular lunes of
+different forms, and then, lastly, he squared the sum of a certain
+circle and a certain lune. Unfortunately, however, the last-mentioned
+lune was not one of those which can be squared, and so the attempt to
+square the circle in this way failed after all.
+
+Hippocrates also attacked the problem of doubling the cube. There are
+two versions of the origin of this famous problem. According to one of
+them, an old tragic poet represented Minos as having been dissatisfied
+with the size of a tomb erected for his son Glaucus, and having told the
+architect to make it double the size, retaining, however, the cubical
+form. According to the other, the Delians, suffering from a pestilence,
+were told by the oracle to double a certain cubical altar as a means of
+staying the plague. Hippocrates did not, indeed, solve the problem, but
+he succeeded in reducing it to another, namely, the problem of finding
+two mean proportionals in continued proportion between two given
+straight lines, i.e. finding x, y such that a : x = x : y = y : b, where
+a, b are the two given straight lines. It is easy to see that, if a : x
+= x : y = y : b, then b/a = (x/a)^3, and, as a particular case, if b =
+2a, x^3 = 2a^3, so that the side of the cube which is double of the cube
+of side a is found.
+
+The problem of doubling the cube was henceforth tried exclusively in the
+form of the problem of the two mean proportionals. Two significant early
+solutions are on record.
+
+(1) Archytas of Tarentum (who flourished in first half of fourth century
+B.C.) found the two mean proportionals by a very striking construction
+in three dimensions, which shows that solid geometry, in the hands of
+Archytas at least, was already well advanced. The construction was
+usually called mechanical, which it no doubt was in form, though in
+reality it was in the highest degree theoretical. It consisted in
+determining a point in space as the intersection of three surfaces: (a)
+a cylinder, (b) a cone, (c) an "anchor-ring" with internal radius = 0.
+(2) Menaechmus, a pupil of Eudoxus, and a contemporary of Plato, found
+the two mean proportionals by means of conic sections, in two ways,
+([alpha]) by the intersection of two parabolas, the equations of which
+in Cartesian co-ordinates would be x^2 = ay, y^2 = bx, and ([beta]) by
+the intersection of a parabola and a rectangular hyperbola, the
+corresponding equations being x^2 = ay, and xy = ab respectively. It
+would appear that it was in the effort to solve this problem that
+Menaechmus discovered the conic sections, which are called, in an
+epigram by Eratosthenes, "the triads of Menaechmus".
+
+The trisection of an angle was effected by means of a curve discovered
+by Hippias of Elis, the sophist, a contemporary of Hippocrates as well
+as of Democritus and Socrates (470-399 B.C.). The curve was called the
+_quadratrix_ because it also served (in the hands, as we are told, of
+Dinostratus, brother of Menaechmus, and of Nicomedes) for squaring the
+circle. It was theoretically constructed as the locus of the point of
+intersection of two straight lines moving at uniform speeds and in the
+same time, one motion being angular and the other rectilinear. Suppose
+OA, OB are two radii of a circle at right angles to one another.
+Tangents to the circle at A and B, meeting at C, form with the two
+radii the square OACB. The radius OA is made to move uniformly about O,
+the centre, so as to describe the angle AOB in a certain time.
+Simultaneously AC moves parallel to itself at uniform speed such that A
+just describes the line AO in the same length of time. The intersection
+of the moving radius and AC in their various positions traces out the
+_quadratrix_.
+
+The rest of the geometry which concerns us was mostly the work of a few
+men, Democritus of Abdera, Theodorus of Cyrene (the mathematical teacher
+of Plato), Theaetetus, Eudoxus, and Euclid. The actual writers of
+Elements of whom we hear were the following. Leon, a little younger than
+Eudoxus (408-355 B.C.), was the author of a collection of propositions
+more numerous and more serviceable than those collected by Hippocrates.
+Theudius of Magnesia, a contemporary of Menaechmus and Dinostratus, "put
+together the elements admirably, making many partial or limited
+propositions more general". Theudius's book was no doubt the geometrical
+text-book of the Academy and that used by Aristotle.
+
+Theodorus of Cyrene and Theaetetus generalised the theory of irrationals,
+and we may safely conclude that a great part of the substance of
+Euclid's Book X. (on irrationals) was due to Theaetetus. Theaetetus also
+wrote on the five regular solids (the tetrahedron, cube, octahedron,
+dodecahedron, and icosahedron), and Euclid was therefore no doubt
+equally indebted to Theaetetus for the contents of his Book XIII. In the
+matter of Book XII. Eudoxus was the pioneer. These facts are confirmed
+by the remark of Proclus that Euclid, in compiling his Elements,
+collected many of the theorems of Eudoxus, perfected many others by
+Theaetetus, and brought to irrefragable demonstration the propositions
+which had only been somewhat loosely proved by his predecessors.
+
+Eudoxus (about 408-355 B.C.) was perhaps the greatest of all
+Archimedes's predecessors, and it is his achievements, especially the
+discovery of the _method of exhaustion_, which interest us in connexion
+with Archimedes.
+
+In astronomy Eudoxus is famous for the beautiful theory of concentric
+spheres which he invented to explain the apparent motions of the
+planets, and, particularly, their apparent stationary points and
+retrogradations. The theory applied also to the sun and moon, for which
+Eudoxus required only three spheres in each case. He represented the
+motion of each planet as compounded of the rotations of four
+interconnected spheres about diameters, all of which pass through the
+centre of the earth. The outermost sphere represents the daily rotation,
+the second a motion along the zodiac circle or ecliptic; the poles of
+the third sphere, about which that sphere revolves, are fixed at two
+opposite points on the zodiac circle, and are carried round in the
+motion of the second sphere; and on the surface of the third sphere the
+poles of the fourth sphere are fixed; the fourth sphere, revolving about
+the diameter joining its two poles, carries the planet which is fixed at
+a point on its equator. The poles and the speeds and directions of
+rotation are so chosen that the planet actually describes a _hippopede_,
+or _horse-fetter_, as it was called (i.e. a figure of eight), which lies
+along and is longitudinally bisected by the zodiac circle, and is
+carried round that circle. As a _tour de force_ of geometrical
+imagination it would be difficult to parallel this hypothesis.
+
+In geometry Eudoxus discovered the great theory of proportion,
+applicable to incommensurable as well as commensurable magnitudes, which
+is expounded in Euclid, Book V., and which still holds its own and will
+do so for all time. He also solved the problem of the two mean
+proportionals by means of certain curves, the nature of which, in the
+absence of any description of them in our sources, can only be
+conjectured.
+
+Last of all, and most important for our purpose, is his use of the
+famous _method of exhaustion_ for the measurement of the areas of curves
+and the volumes of solids. The example of this method which will be most
+familiar to the reader is the proof in Euclid XII., 2, of the theorem
+that the areas of circles are to one another as the squares on their
+diameters. The proof in this and in all cases depends on a lemma which
+forms Prop. 1 of Euclid's Book X. to the effect that, if there are two
+unequal magnitudes of the same kind and from the greater you subtract
+not less than its half, then from the remainder not less than its half,
+and so on continually, you will at length have remaining a magnitude
+less than the lesser of the two magnitudes set out, however small it is.
+Archimedes says that the theorem of Euclid XII., 2, was proved by means
+of a certain lemma to the effect that, if we have two unequal magnitudes
+(i.e. lines, surfaces, or solids respectively), the greater exceeds the
+lesser by such a magnitude as is capable, if added continually to
+itself, of exceeding any magnitude of the same kind as the original
+magnitudes. This assumption is known as the Axiom or Postulate of
+Archimedes, though, as he states, it was assumed before his time by
+those who used the method of exhaustion. It is in reality used in
+Euclid's lemma (Eucl. X., 1) on which Euclid XII., 2, depends, and only
+differs in statement from Def. 4 of Euclid, Book V., which is no doubt
+due to Eudoxus.
+
+The method of exhaustion was not discovered all at once; we find traces
+of gropings after such a method before it was actually evolved. It was
+perhaps Antiphon, the sophist, of Athens, a contemporary of Socrates
+(470-399 B.C.), who took the first step. He inscribed a square (or,
+according to another account, an equilateral triangle) in a circle, then
+bisected the arcs subtended by the sides, and so inscribed a polygon of
+double the number of sides; he then repeated the process, and maintained
+that, by continuing it, we should at last arrive at a polygon with
+sides so small as to make the polygon coincident with the circle. Though
+this was formally incorrect, it nevertheless contained the germ of the
+method of exhaustion.
+
+Hippocrates, as we have seen, is said to have proved the theorem that
+circles are to one another as the squares on their diameters, and it is
+difficult to see how he could have done this except by some form, or
+anticipation, of the method. There is, however, no doubt about the part
+taken by Eudoxus; he not only based the method on rigorous demonstration
+by means of the lemma or lemmas aforesaid, but he actually applied the
+method to find the volumes (1) of any pyramid, (2) of the cone, proving
+(1) that any pyramid is one third part of the prism which has the same
+base and equal height, and (2) that any cone is one third part of the
+cylinder which has the same base and equal height. Archimedes, however,
+tells us the remarkable fact that these two theorems were first
+discovered by Democritus (who flourished towards the end of the fifth
+century B.C.), though he was not able to prove them (which no doubt
+means, not that he gave no sort of proof, but that he was not able to
+establish the propositions by the rigorous method of Eudoxus).
+Archimedes adds that we must give no small share of the credit for these
+theorems to Democritus; and this is another testimony to the marvellous
+powers, in mathematics as well as in other subjects, of the great man
+who, in the words of Aristotle, "seems to have thought of everything".
+We know from other sources that Democritus wrote on irrationals; he is
+also said to have discussed the question of two parallel sections of a
+cone (which were evidently supposed to be indefinitely close together),
+asking whether we are to regard them as unequal or equal: "for if they
+are unequal they will make the cone irregular as having many
+indentations, like steps, and unevennesses, but, if they are equal, the
+cone will appear to have the property of the cylinder and to be made up
+of equal, not unequal, circles, which is very absurd". This explanation
+shows that Democritus was already close on the track of infinitesimals.
+
+Archimedes says further that the theorem that spheres are in the
+triplicate ratio of their diameters was proved by means of the same
+lemma. The proofs of the propositions about the volumes of pyramids,
+cones and spheres are, of course, contained in Euclid, Book XII. (Props.
+3-7 Cor., 10, 16-18 respectively).
+
+It is no doubt desirable to illustrate Eudoxus's method by one example.
+We will take one of the simplest, the proposition (Eucl. XII., 10) about
+the cone. Given ABCD, the circular base of the cylinder which has the
+same base as the cone and equal height, we inscribe the square ABCD; we
+then bisect the arcs subtended by the sides, and draw the regular
+inscribed polygon of eight sides, then similarly we draw the regular
+inscribed polygon of sixteen sides, and so on. We erect on each regular
+polygon the prism which has the polygon for base, thereby obtaining
+successive prisms inscribed in the cylinder, and of the same height with
+it. Each time we double the number of sides in the base of the prism we
+take away more than half of the volume by which the cylinder exceeds the
+prism (since we take away more than half of the excess of the area of
+the circular base over that of the inscribed polygon, as in Euclid XII.,
+2). Suppose now that V is the volume of the cone, C that of the
+cylinder. We have to prove that C = 3V. If C is not equal to 3V, it is
+either greater or less than 3V.
+
+Suppose (1) that C > 3V, and that C = 3V + E. Continue the construction
+of prisms inscribed in the cylinder until the parts of the cylinder left
+over outside the final prism (of volume P) are together less than E.
+
+  Then        C - P < E.
+  But         C - 3V = E;
+  Therefore   P > 3V.
+
+But it has been proved in earlier propositions that P is equal to three
+times the pyramid with the same base as the prism and equal height.
+
+Therefore that pyramid is greater than V, the volume of the cone: which
+is impossible, since the cone encloses the pyramid.
+
+Therefore C is not greater than 3V.
+
+Next (2) suppose that C < 3V, so that, inversely,
+
+  V > 1/3 C.
+
+This time we inscribe successive pyramids in the cone until we arrive at
+a pyramid such that the portions of the cone left over outside it are
+together less than the excess of V over 1/3 C. It follows that the
+pyramid is greater than 1/3 C. Hence the prism on the same base as the
+pyramid and inscribed in the cylinder (which prism is three times the
+pyramid) is greater than C: which is impossible, since the prism is
+enclosed by the cylinder, and is therefore less than it.
+
+Therefore V is not greater than 1/3 C, or C is not less than 3V.
+
+Accordingly C, being neither greater nor less than 3V, must be equal to
+it; that is, V = 1/3 C.
+
+It only remains to add that Archimedes is fully acquainted with the main
+properties of the conic sections. These had already been proved in
+earlier treatises, which Archimedes refers to as the "Elements of
+Conics". We know of two such treatises, (1) Euclid's four Books on
+Conics, (2) a work by one Aristaeus called "Solid Loci," probably a
+treatise on conics regarded as loci. Both these treatises are lost; the
+former was, of course, superseded by Apollonius's great work on Conics
+in eight Books.
