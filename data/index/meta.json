@@ -1,0 +1,1002 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "count": 199,
+  "dim": 384,
+  "records": [
+    {
+      "id": "archimedes.txt::chunk0",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "In order to enable the reader to arrive at a correct understanding of the place of Archimedes and of the significance of his work it is necessary to pass in review the course of development of Greek geometry from its first beginnings down to the time of Euclid and Archimedes. Greek authors from Herodotus downwards agree in saying that geometry was invented by the Egyptians and that it came into Greece from Egypt. One account says:-- \"Geometry is said by many to have been invented among the Egyptians, its origin being due to the measurement of plots of land. This was necessary there because of the rising of the Nile, which obliterated the boundaries appertaining to separate owners. Nor is it marvellous that the discovery of this and the other sciences should have arisen from such an occasio"
+    },
+    {
+      "id": "archimedes.txt::chunk1",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "marvellous that the discovery of this and the other sciences should have arisen from such an occasion, since everything which moves in the sense of development will advance from the imperfect to the perfect. From sense-perception to reasoning, and from reasoning to understanding, is a natural transition. Just as among the Phoenicians, through commerce and exchange, an accurate knowledge of numbers was originated, so also among the Egyptians geometry was invented for the reason above stated. \"Thales first went to Egypt and thence introduced this study into Greece.\" But it is clear that the geometry of the Egyptians was almost entirely practical and did not go beyond the requirements of the land-surveyor, farmer or merchant. They did indeed know, as far back as 2000 B.C., that in a triangle "
+    },
+    {
+      "id": "archimedes.txt::chunk2",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "nd-surveyor, farmer or merchant. They did indeed know, as far back as 2000 B.C., that in a triangle which has its sides proportional to 3, 4, 5 the angle contained by the two smaller sides is a right angle, and they used such a triangle as a practical means of drawing right angles. They had formulae, more or less inaccurate, for certain measurements, e.g. for the areas of certain triangles, parallel-trapezia, and circles. They had, further, in their construction of pyramids, to use the notion of similar right-angled triangles; they even had a name, _se-qet_, for the ratio of the half of the side of the base to the height, that is, for what we should call the _co-tangent_ of the angle of slope. But not a single general theorem in geometry can be traced to the Egyptians. Their knowledge that"
+    },
+    {
+      "id": "archimedes.txt::chunk3",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "e. But not a single general theorem in geometry can be traced to the Egyptians. Their knowledge that the triangle (3, 4, 5) is right angled is far from implying any knowledge of the general proposition (Eucl. I., 47) known by the name of Pythagoras. The science of geometry, in fact, remained to be discovered; and this required the genius for pure speculation which the Greeks possessed in the largest measure among all the nations of the world. Thales, who had travelled in Egypt and there learnt what the priests could teach him on the subject, introduced geometry into Greece. Almost the whole of Greek science and philosophy begins with Thales. His date was about 624-547 B.C. First of the Ionian philosophers, and declared one of the Seven Wise Men in 582-581, he shone in all fields, as astron"
+    },
+    {
+      "id": "archimedes.txt::chunk4",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "n philosophers, and declared one of the Seven Wise Men in 582-581, he shone in all fields, as astronomer, mathematician, engineer, statesman and man of business. In astronomy he predicted the solar eclipse of 28 May, 585, discovered the inequality of the four astronomical seasons, and counselled the use of the Little Bear instead of the Great Bear as a means of finding the pole. In geometry the following theorems are attributed to him--and their character shows how the Greeks had to begin at the very beginning of the theory--(1) that a circle is bisected by any diameter (Eucl. I., Def. 17), (2) that the angles at the base of an isosceles triangle are equal (Eucl. I., 5), (3) that, if two straight lines cut one another, the vertically opposite angles are equal (Eucl. I., 15), (4) that, if t"
+    },
+    {
+      "id": "archimedes.txt::chunk5",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "aight lines cut one another, the vertically opposite angles are equal (Eucl. I., 15), (4) that, if two triangles have two angles and one side respectively equal, the triangles are equal in all respects (Eucl. I., 26). He is said (5) to have been the first to inscribe a right-angled triangle in a circle: which must mean that he was the first to discover that the angle in a semicircle is a right angle. He also solved two problems in practical geometry: (1) he showed how to measure the distance from the land of a ship at sea (for this he is said to have used the proposition numbered (4) above), and (2) he measured the heights of pyramids by means of the shadow thrown on the ground (this implies the use of similar triangles in the way that the Egyptians had used them in the construction of pyr"
+    },
+    {
+      "id": "archimedes.txt::chunk6",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": " the use of similar triangles in the way that the Egyptians had used them in the construction of pyramids). After Thales come the Pythagoreans. We are told that the Pythagoreans were the first to use the term [Greek: mathemata] (literally \"subjects of instruction\") in the specialised sense of \"mathematics\"; they, too, first advanced mathematics as a study pursued for its own sake and made it a part of a liberal education. Pythagoras, son of Mnesarchus, was born in Samos about 572 B.C., and died at a great age (75 or 80) at Metapontum. His interests were as various as those of Thales; his travels, all undertaken in pursuit of knowledge, were probably even more extended. Like Thales, and perhaps at his suggestion, he visited Egypt and studied there for a long period (22 years, some say). It "
+    },
+    {
+      "id": "archimedes.txt::chunk7",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "ps at his suggestion, he visited Egypt and studied there for a long period (22 years, some say). It is difficult to disentangle from the body of Pythagorean doctrines the portions which are due to Pythagoras himself because of the habit which the members of the school had of attributing everything to the Master ([Greek: autos epha], _ipse dixit_). In astronomy two things at least may safely be attributed to him; he held that the earth is spherical in shape, and he recognised that the sun, moon and planets have an independent motion of their own in a direction contrary to that of the daily rotation; he seems, however, to have adhered to the geocentric view of the universe, and it was his successors who evolved the theory that the earth does not remain at the centre but revolves, like the ot"
+    },
+    {
+      "id": "archimedes.txt::chunk8",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "essors who evolved the theory that the earth does not remain at the centre but revolves, like the other planets and the sun and moon, about the \"central fire\". Perhaps his most remarkable discovery was the dependence of the musical intervals on the lengths of vibrating strings, the proportion for the octave being 2 : 1, for the fifth 3 : 2 and for the fourth 4 : 3. In arithmetic he was the first to expound the theory of _means_ and of proportion as applied to commensurable quantities. He laid the foundation of the theory of numbers by considering the properties of numbers as such, namely, prime numbers, odd and even numbers, etc. By means of _figured_ numbers, square, oblong, triangular, etc. (represented by dots arranged in the form of the various figures) he showed the connexion between "
+    },
+    {
+      "id": "archimedes.txt::chunk9",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": ". (represented by dots arranged in the form of the various figures) he showed the connexion between numbers and geometry. In view of all these properties of numbers, we can easily understand how the Pythagoreans came to \"liken all things to numbers\" and to find in the principles of numbers the principles of all things (\"all things are numbers\"). We come now to Pythagoras's achievements in geometry. There is a story that, when he came home from Egypt and tried to found a school at Samos, he found the Samians indifferent, so that he had to take special measures to ensure that his geometry might not perish with him. Going to the gymnasium, he sought out a well-favoured youth who seemed likely to suit his purpose, and was withal poor, and bribed him to learn geometry by promising him sixpence "
+    },
+    {
+      "id": "archimedes.txt::chunk10",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "o suit his purpose, and was withal poor, and bribed him to learn geometry by promising him sixpence for every proposition that he mastered. Very soon the youth got fascinated by the subject for its own sake, and Pythagoras rightly judged that he would gladly go on without the sixpence. He hinted, therefore, that he himself was poor and must try to earn his living instead of doing mathematics; whereupon the youth, rather than give up the study, volunteered to pay sixpence to Pythagoras for each proposition. In geometry Pythagoras set himself to lay the foundations of the subject, beginning with certain important definitions and investigating the fundamental principles. Of propositions attributed to him the most famous is, of course, the theorem that in a right-angled triangle the square on "
+    },
+    {
+      "id": "archimedes.txt::chunk11",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "ted to him the most famous is, of course, the theorem that in a right-angled triangle the square on the hypotenuse is equal to the sum of the squares on the sides about the right angle (Eucl. I., 47); and, seeing that Greek tradition universally credits him with the proof of this theorem, we prefer to believe that tradition is right. This is to some extent confirmed by another tradition that Pythagoras discovered a general formula for finding two numbers such that the sum of their squares is a square number. This depends on the theory of the _gnomon_, which at first had an arithmetical signification corresponding to the geometrical use of it in Euclid, Book II. A figure in the shape of a _gnomon_ put round two sides of a square makes it into a larger square. Now consider the number 1 repre"
+    },
+    {
+      "id": "archimedes.txt::chunk12",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "omon_ put round two sides of a square makes it into a larger square. Now consider the number 1 represented by a dot. Round this place three other dots so that the four dots form a square (1 + 3 = 2^2). Round the four dots (on two adjacent sides of the square) place five dots at regular and equal distances, and we have another square (1 + 3 + 5 = 3^2); and so on. The successive odd numbers 1, 3, 5 ... were called _gnomons_, and the general formula is 1 + 3 + 5 + ... + (2n - 1) = n^2. Add the next odd number, i.e. 2n + 1, and we have n^2 + (2n + 1) = (n + 1)^2. In order, then, to get two square numbers such that their sum is a square we have only to see that 2n + 1 is a square. Suppose that 2n + 1 = m^2; then n = 1/2(m^2 - 1), and we have {1/2(m^2 - 1)}^2 + m^2 = {1/2(m^2 + 1)}^2, where m is"
+    },
+    {
+      "id": "archimedes.txt::chunk13",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": " + 1 = m^2; then n = 1/2(m^2 - 1), and we have {1/2(m^2 - 1)}^2 + m^2 = {1/2(m^2 + 1)}^2, where m is any odd number; and this is the general formula attributed to Pythagoras. Proclus also attributes to Pythagoras the theory of proportionals and the construction of the five \"cosmic figures,\" the five regular solids. One of the said solids, the dodecahedron, has twelve pentagonal faces, and the construction of a regular pentagon involves the cutting of a straight line \"in extreme and mean ratio\" (Eucl. II., 11, and VI., 30), which is a particular case of the method known as the _application of areas_. How much of this was due to Pythagoras himself we do not know; but the whole method was at all events fully worked out by the Pythagoreans and proved one of the most powerful of geometrical met"
+    },
+    {
+      "id": "archimedes.txt::chunk14",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "l events fully worked out by the Pythagoreans and proved one of the most powerful of geometrical methods. The most elementary case appears in Euclid, I., 44, 45, where it is shown how to apply to a given straight line as base a parallelogram having a given angle (say a rectangle) and equal in area to any rectilineal figure; this construction is the geometrical equivalent of arithmetical _division_. The general case is that in which the parallelogram, though _applied_ to the straight line, overlaps it or falls short of it in such a way that the part of the parallelogram which extends beyond, or falls short of, the parallelogram of the same angle and breadth on the given straight line itself (exactly) as base is similar to another given parallelogram (Eucl. VI., 28, 29). This is the geometri"
+    },
+    {
+      "id": "archimedes.txt::chunk15",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "exactly) as base is similar to another given parallelogram (Eucl. VI., 28, 29). This is the geometrical equivalent of the most general form of quadratic equation ax [+-] mx^2 = C, so far as it has real roots; while the condition that the roots may be real was also worked out (= Eucl. VI., 27). It is important to note that this method of _application of areas_ was directly used by Apollonius of Perga in formulating the fundamental properties of the three conic sections, which properties correspond to the equations of the conics in Cartesian co-ordinates; and the names given by Apollonius (for the first time) to the respective conics are taken from the theory, _parabola_ ([Greek: parabole]) meaning \"application\" (i.e. in this case the parallelogram is applied to the straight line exactly), _"
+    },
+    {
+      "id": "archimedes.txt::chunk16",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "aning \"application\" (i.e. in this case the parallelogram is applied to the straight line exactly), _hyperbola_ ([Greek: hyperbole]), \"exceeding\" (i.e. in this case the parallelogram exceeds or overlaps the straight line), _ellipse_ ([Greek: elleipsis]), \"falling short\" (i.e. the parallelogram falls short of the straight line). Another problem solved by the Pythagoreans is that of drawing a rectilineal figure equal in area to one given rectilineal figure and similar to another. Plutarch mentions a doubt as to whether it was this problem or the proposition of Euclid I., 47, on the strength of which Pythagoras was said to have sacrificed an ox. The main particular applications of the theorem of the square on the hypotenuse (e.g. those in Euclid, Book II.) were also Pythagorean; the constructi"
+    },
+    {
+      "id": "archimedes.txt::chunk17",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": " the square on the hypotenuse (e.g. those in Euclid, Book II.) were also Pythagorean; the construction of a square equal to a given rectangle (Eucl. II., 14) is one of them and corresponds to the solution of the pure quadratic equation x^2 = ab. The Pythagoreans proved the theorem that the sum of the angles of any triangle is equal to two right angles (Eucl. I., 32). Speaking generally, we may say that the Pythagorean geometry covered the bulk of the subject-matter of Books I., II., IV., and VI. of Euclid (with the qualification, as regards Book VI., that the Pythagorean theory of proportion applied only to commensurable magnitudes). Our information about the origin of the propositions of Euclid, Book III., is not so complete; but it is certain that the most important of them were well kno"
+    },
+    {
+      "id": "archimedes.txt::chunk18",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "clid, Book III., is not so complete; but it is certain that the most important of them were well known to Hippocrates of Chios (who flourished in the second half of the fifth century, and lived perhaps from about 470 to 400 B.C.), whence we conclude that the main propositions of Book III. were also included in the Pythagorean geometry. Lastly, the Pythagoreans discovered the existence of incommensurable lines, or of _irrationals_. This was, doubtless, first discovered with reference to the diagonal of a square which is incommensurable with the side, being in the ratio to it of [root]2 to 1. The Pythagorean proof of this particular case survives in Aristotle and in a proposition interpolated in Euclid's Book X.; it is by a _reductio ad absurdum_ proving that, if the diagonal is commensurabl"
+    },
+    {
+      "id": "archimedes.txt::chunk19",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "in Euclid's Book X.; it is by a _reductio ad absurdum_ proving that, if the diagonal is commensurable with the side, the same number must be both odd and even. This discovery of the incommensurable was bound to cause geometers a great shock, because it showed that the theory of proportion invented by Pythagoras was not of universal application, and therefore that propositions proved by means of it were not really established. Hence the stories that the discovery of the irrational was for a time kept secret, and that the first person who divulged it perished by shipwreck. The fatal flaw thus revealed in the body of geometry was not removed till Eudoxus (408-355 B.C.) discovered the great theory of proportion (expounded in Euclid's Book V.), which is applicable to incommensurable as well as "
+    },
+    {
+      "id": "archimedes.txt::chunk20",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "ry of proportion (expounded in Euclid's Book V.), which is applicable to incommensurable as well as to commensurable magnitudes. By the time of Hippocrates of Chios the scope of Greek geometry was no longer even limited to the Elements; certain special problems were also attacked which were beyond the power of the geometry of the straight line and circle, and which were destined to play a great part in determining the direction taken by Greek geometry in its highest flights. The main problems in question were three: (1) the doubling of the cube, (2) the trisection of any angle, (3) the squaring of the circle; and from the time of Hippocrates onwards the investigation of these problems proceeded _pari passu_ with the completion of the body of the Elements. Hippocrates himself is an example "
+    },
+    {
+      "id": "archimedes.txt::chunk21",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "ded _pari passu_ with the completion of the body of the Elements. Hippocrates himself is an example of the concurrent study of the two departments. On the one hand, he was the first of the Greeks who is known to have compiled a book of Elements. This book, we may be sure, contained in particular the most important propositions about the circle included in Euclid, Book III. But a much more important proposition is attributed to Hippocrates; he is said to have been the first to prove that circles are to one another as the squares on their diameters (= Eucl. XII., 2), with the deduction that similar segments of circles are to one another as the squares on their bases. These propositions were used by him in his tract on the squaring of _lunes_, which was intended to lead up to the squaring of "
+    },
+    {
+      "id": "archimedes.txt::chunk22",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "ed by him in his tract on the squaring of _lunes_, which was intended to lead up to the squaring of the circle. The latter problem is one which must have exercised practical geometers from time immemorial. Anaxagoras for instance (about 500-428 B.C.) is said to have worked at the problem while in prison. The essential portions of Hippocrates's tract are preserved in a passage of Simplicius (on Aristotle's _Physics_), which contains substantial fragments from Eudemus's _History of Geometry_. Hippocrates showed how to square three particular lunes of different forms, and then, lastly, he squared the sum of a certain circle and a certain lune. Unfortunately, however, the last-mentioned lune was not one of those which can be squared, and so the attempt to square the circle in this way failed a"
+    },
+    {
+      "id": "archimedes.txt::chunk23",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": " not one of those which can be squared, and so the attempt to square the circle in this way failed after all. Hippocrates also attacked the problem of doubling the cube. There are two versions of the origin of this famous problem. According to one of them, an old tragic poet represented Minos as having been dissatisfied with the size of a tomb erected for his son Glaucus, and having told the architect to make it double the size, retaining, however, the cubical form. According to the other, the Delians, suffering from a pestilence, were told by the oracle to double a certain cubical altar as a means of staying the plague. Hippocrates did not, indeed, solve the problem, but he succeeded in reducing it to another, namely, the problem of finding two mean proportionals in continued proportion b"
+    },
+    {
+      "id": "archimedes.txt::chunk24",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "ucing it to another, namely, the problem of finding two mean proportionals in continued proportion between two given straight lines, i.e. finding x, y such that a : x = x : y = y : b, where a, b are the two given straight lines. It is easy to see that, if a : x = x : y = y : b, then b/a = (x/a)^3, and, as a particular case, if b = 2a, x^3 = 2a^3, so that the side of the cube which is double of the cube of side a is found. The problem of doubling the cube was henceforth tried exclusively in the form of the problem of the two mean proportionals. Two significant early solutions are on record. (1) Archytas of Tarentum (who flourished in first half of fourth century B.C.) found the two mean proportionals by a very striking construction in three dimensions, which shows that solid geometry, in th"
+    },
+    {
+      "id": "archimedes.txt::chunk25",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "rtionals by a very striking construction in three dimensions, which shows that solid geometry, in the hands of Archytas at least, was already well advanced. The construction was usually called mechanical, which it no doubt was in form, though in reality it was in the highest degree theoretical. It consisted in determining a point in space as the intersection of three surfaces: (a) a cylinder, (b) a cone, (c) an \"anchor-ring\" with internal radius = 0. (2) Menaechmus, a pupil of Eudoxus, and a contemporary of Plato, found the two mean proportionals by means of conic sections, in two ways, ([alpha]) by the intersection of two parabolas, the equations of which in Cartesian co-ordinates would be x^2 = ay, y^2 = bx, and ([beta]) by the intersection of a parabola and a rectangular hyperbola, the "
+    },
+    {
+      "id": "archimedes.txt::chunk26",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "x^2 = ay, y^2 = bx, and ([beta]) by the intersection of a parabola and a rectangular hyperbola, the corresponding equations being x^2 = ay, and xy = ab respectively. It would appear that it was in the effort to solve this problem that Menaechmus discovered the conic sections, which are called, in an epigram by Eratosthenes, \"the triads of Menaechmus\". The trisection of an angle was effected by means of a curve discovered by Hippias of Elis, the sophist, a contemporary of Hippocrates as well as of Democritus and Socrates (470-399 B.C.). The curve was called the _quadratrix_ because it also served (in the hands, as we are told, of Dinostratus, brother of Menaechmus, and of Nicomedes) for squaring the circle. It was theoretically constructed as the locus of the point of intersection of two st"
+    },
+    {
+      "id": "archimedes.txt::chunk27",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "ing the circle. It was theoretically constructed as the locus of the point of intersection of two straight lines moving at uniform speeds and in the same time, one motion being angular and the other rectilinear. Suppose OA, OB are two radii of a circle at right angles to one another. Tangents to the circle at A and B, meeting at C, form with the two radii the square OACB. The radius OA is made to move uniformly about O, the centre, so as to describe the angle AOB in a certain time. Simultaneously AC moves parallel to itself at uniform speed such that A just describes the line AO in the same length of time. The intersection of the moving radius and AC in their various positions traces out the _quadratrix_. The rest of the geometry which concerns us was mostly the work of a few men, Democrit"
+    },
+    {
+      "id": "archimedes.txt::chunk28",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": " _quadratrix_. The rest of the geometry which concerns us was mostly the work of a few men, Democritus of Abdera, Theodorus of Cyrene (the mathematical teacher of Plato), Theaetetus, Eudoxus, and Euclid. The actual writers of Elements of whom we hear were the following. Leon, a little younger than Eudoxus (408-355 B.C.), was the author of a collection of propositions more numerous and more serviceable than those collected by Hippocrates. Theudius of Magnesia, a contemporary of Menaechmus and Dinostratus, \"put together the elements admirably, making many partial or limited propositions more general\". Theudius's book was no doubt the geometrical text-book of the Academy and that used by Aristotle. Theodorus of Cyrene and Theaetetus generalised the theory of irrationals, and we may safely con"
+    },
+    {
+      "id": "archimedes.txt::chunk29",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "tle. Theodorus of Cyrene and Theaetetus generalised the theory of irrationals, and we may safely conclude that a great part of the substance of Euclid's Book X. (on irrationals) was due to Theaetetus. Theaetetus also wrote on the five regular solids (the tetrahedron, cube, octahedron, dodecahedron, and icosahedron), and Euclid was therefore no doubt equally indebted to Theaetetus for the contents of his Book XIII. In the matter of Book XII. Eudoxus was the pioneer. These facts are confirmed by the remark of Proclus that Euclid, in compiling his Elements, collected many of the theorems of Eudoxus, perfected many others by Theaetetus, and brought to irrefragable demonstration the propositions which had only been somewhat loosely proved by his predecessors. Eudoxus (about 408-355 B.C.) was pe"
+    },
+    {
+      "id": "archimedes.txt::chunk30",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "which had only been somewhat loosely proved by his predecessors. Eudoxus (about 408-355 B.C.) was perhaps the greatest of all Archimedes's predecessors, and it is his achievements, especially the discovery of the _method of exhaustion_, which interest us in connexion with Archimedes. In astronomy Eudoxus is famous for the beautiful theory of concentric spheres which he invented to explain the apparent motions of the planets, and, particularly, their apparent stationary points and retrogradations. The theory applied also to the sun and moon, for which Eudoxus required only three spheres in each case. He represented the motion of each planet as compounded of the rotations of four interconnected spheres about diameters, all of which pass through the centre of the earth. The outermost sphere r"
+    },
+    {
+      "id": "archimedes.txt::chunk31",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "d spheres about diameters, all of which pass through the centre of the earth. The outermost sphere represents the daily rotation, the second a motion along the zodiac circle or ecliptic; the poles of the third sphere, about which that sphere revolves, are fixed at two opposite points on the zodiac circle, and are carried round in the motion of the second sphere; and on the surface of the third sphere the poles of the fourth sphere are fixed; the fourth sphere, revolving about the diameter joining its two poles, carries the planet which is fixed at a point on its equator. The poles and the speeds and directions of rotation are so chosen that the planet actually describes a _hippopede_, or _horse-fetter_, as it was called (i.e. a figure of eight), which lies along and is longitudinally bisec"
+    },
+    {
+      "id": "archimedes.txt::chunk32",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "rse-fetter_, as it was called (i.e. a figure of eight), which lies along and is longitudinally bisected by the zodiac circle, and is carried round that circle. As a _tour de force_ of geometrical imagination it would be difficult to parallel this hypothesis. In geometry Eudoxus discovered the great theory of proportion, applicable to incommensurable as well as commensurable magnitudes, which is expounded in Euclid, Book V., and which still holds its own and will do so for all time. He also solved the problem of the two mean proportionals by means of certain curves, the nature of which, in the absence of any description of them in our sources, can only be conjectured. Last of all, and most important for our purpose, is his use of the famous _method of exhaustion_ for the measurement of the "
+    },
+    {
+      "id": "archimedes.txt::chunk33",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "portant for our purpose, is his use of the famous _method of exhaustion_ for the measurement of the areas of curves and the volumes of solids. The example of this method which will be most familiar to the reader is the proof in Euclid XII., 2, of the theorem that the areas of circles are to one another as the squares on their diameters. The proof in this and in all cases depends on a lemma which forms Prop. 1 of Euclid's Book X. to the effect that, if there are two unequal magnitudes of the same kind and from the greater you subtract not less than its half, then from the remainder not less than its half, and so on continually, you will at length have remaining a magnitude less than the lesser of the two magnitudes set out, however small it is. Archimedes says that the theorem of Euclid XII"
+    },
+    {
+      "id": "archimedes.txt::chunk34",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "r of the two magnitudes set out, however small it is. Archimedes says that the theorem of Euclid XII., 2, was proved by means of a certain lemma to the effect that, if we have two unequal magnitudes (i.e. lines, surfaces, or solids respectively), the greater exceeds the lesser by such a magnitude as is capable, if added continually to itself, of exceeding any magnitude of the same kind as the original magnitudes. This assumption is known as the Axiom or Postulate of Archimedes, though, as he states, it was assumed before his time by those who used the method of exhaustion. It is in reality used in Euclid's lemma (Eucl. X., 1) on which Euclid XII., 2, depends, and only differs in statement from Def. 4 of Euclid, Book V., which is no doubt due to Eudoxus. The method of exhaustion was not dis"
+    },
+    {
+      "id": "archimedes.txt::chunk35",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "om Def. 4 of Euclid, Book V., which is no doubt due to Eudoxus. The method of exhaustion was not discovered all at once; we find traces of gropings after such a method before it was actually evolved. It was perhaps Antiphon, the sophist, of Athens, a contemporary of Socrates (470-399 B.C.), who took the first step. He inscribed a square (or, according to another account, an equilateral triangle) in a circle, then bisected the arcs subtended by the sides, and so inscribed a polygon of double the number of sides; he then repeated the process, and maintained that, by continuing it, we should at last arrive at a polygon with sides so small as to make the polygon coincident with the circle. Though this was formally incorrect, it nevertheless contained the germ of the method of exhaustion. Hippo"
+    },
+    {
+      "id": "archimedes.txt::chunk36",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "h this was formally incorrect, it nevertheless contained the germ of the method of exhaustion. Hippocrates, as we have seen, is said to have proved the theorem that circles are to one another as the squares on their diameters, and it is difficult to see how he could have done this except by some form, or anticipation, of the method. There is, however, no doubt about the part taken by Eudoxus; he not only based the method on rigorous demonstration by means of the lemma or lemmas aforesaid, but he actually applied the method to find the volumes (1) of any pyramid, (2) of the cone, proving (1) that any pyramid is one third part of the prism which has the same base and equal height, and (2) that any cone is one third part of the cylinder which has the same base and equal height. Archimedes, ho"
+    },
+    {
+      "id": "archimedes.txt::chunk37",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": " any cone is one third part of the cylinder which has the same base and equal height. Archimedes, however, tells us the remarkable fact that these two theorems were first discovered by Democritus (who flourished towards the end of the fifth century B.C.), though he was not able to prove them (which no doubt means, not that he gave no sort of proof, but that he was not able to establish the propositions by the rigorous method of Eudoxus). Archimedes adds that we must give no small share of the credit for these theorems to Democritus; and this is another testimony to the marvellous powers, in mathematics as well as in other subjects, of the great man who, in the words of Aristotle, \"seems to have thought of everything\". We know from other sources that Democritus wrote on irrationals; he is a"
+    },
+    {
+      "id": "archimedes.txt::chunk38",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "ave thought of everything\". We know from other sources that Democritus wrote on irrationals; he is also said to have discussed the question of two parallel sections of a cone (which were evidently supposed to be indefinitely close together), asking whether we are to regard them as unequal or equal: \"for if they are unequal they will make the cone irregular as having many indentations, like steps, and unevennesses, but, if they are equal, the cone will appear to have the property of the cylinder and to be made up of equal, not unequal, circles, which is very absurd\". This explanation shows that Democritus was already close on the track of infinitesimals. Archimedes says further that the theorem that spheres are in the triplicate ratio of their diameters was proved by means of the same lemma"
+    },
+    {
+      "id": "archimedes.txt::chunk39",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "em that spheres are in the triplicate ratio of their diameters was proved by means of the same lemma. The proofs of the propositions about the volumes of pyramids, cones and spheres are, of course, contained in Euclid, Book XII. (Props. 3-7 Cor., 10, 16-18 respectively). It is no doubt desirable to illustrate Eudoxus's method by one example. We will take one of the simplest, the proposition (Eucl. XII., 10) about the cone. Given ABCD, the circular base of the cylinder which has the same base as the cone and equal height, we inscribe the square ABCD; we then bisect the arcs subtended by the sides, and draw the regular inscribed polygon of eight sides, then similarly we draw the regular inscribed polygon of sixteen sides, and so on. We erect on each regular polygon the prism which has the po"
+    },
+    {
+      "id": "archimedes.txt::chunk40",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "bed polygon of sixteen sides, and so on. We erect on each regular polygon the prism which has the polygon for base, thereby obtaining successive prisms inscribed in the cylinder, and of the same height with it. Each time we double the number of sides in the base of the prism we take away more than half of the volume by which the cylinder exceeds the prism (since we take away more than half of the excess of the area of the circular base over that of the inscribed polygon, as in Euclid XII., 2). Suppose now that V is the volume of the cone, C that of the cylinder. We have to prove that C = 3V. If C is not equal to 3V, it is either greater or less than 3V. Suppose (1) that C > 3V, and that C = 3V + E. Continue the construction of prisms inscribed in the cylinder until the parts of the cylinde"
+    },
+    {
+      "id": "archimedes.txt::chunk41",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "3V + E. Continue the construction of prisms inscribed in the cylinder until the parts of the cylinder left over outside the final prism (of volume P) are together less than E. Then C - P < E. But C - 3V = E; Therefore P > 3V. But it has been proved in earlier propositions that P is equal to three times the pyramid with the same base as the prism and equal height. Therefore that pyramid is greater than V, the volume of the cone: which is impossible, since the cone encloses the pyramid. Therefore C is not greater than 3V. Next (2) suppose that C < 3V, so that, inversely, V > 1/3 C. This time we inscribe successive pyramids in the cone until we arrive at a pyramid such that the portions of the cone left over outside it are together less than the excess of V over 1/3 C. It follows that the pyr"
+    },
+    {
+      "id": "archimedes.txt::chunk42",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "cone left over outside it are together less than the excess of V over 1/3 C. It follows that the pyramid is greater than 1/3 C. Hence the prism on the same base as the pyramid and inscribed in the cylinder (which prism is three times the pyramid) is greater than C: which is impossible, since the prism is enclosed by the cylinder, and is therefore less than it. Therefore V is not greater than 1/3 C, or C is not less than 3V. Accordingly C, being neither greater nor less than 3V, must be equal to it; that is, V = 1/3 C. It only remains to add that Archimedes is fully acquainted with the main properties of the conic sections. These had already been proved in earlier treatises, which Archimedes refers to as the \"Elements of Conics\". We know of two such treatises, (1) Euclid's four Books on Con"
+    },
+    {
+      "id": "archimedes.txt::chunk43",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\archimedes.txt",
+      "text": "refers to as the \"Elements of Conics\". We know of two such treatises, (1) Euclid's four Books on Conics, (2) a work by one Aristaeus called \"Solid Loci,\" probably a treatise on conics regarded as loci. Both these treatises are lost; the former was, of course, superseded by Apollonius's great work on Conics in eight Books."
+    },
+    {
+      "id": "aristoteles.txt::chunk0",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\aristoteles.txt",
+      "text": "Every art, and every science reduced to a teachable form, and in like manner every action and moral choice, aims, it is thought, at some good: for which reason a common and by no means a bad description of the Chief Good is, “that which all things aim at.” Now there plainly is a difference in the Ends proposed: for in some cases they are acts of working, and in others certain works or tangible results beyond and beside the acts of working: and where there are certain Ends beyond and beside the actions, the works are in their nature better than the acts of working. Again, since actions and arts and sciences are many, the Ends likewise come to be many: of the healing art, for instance, health; of the ship-building art, a vessel; of the military art, victory; and of domestic management, wealt"
+    },
+    {
+      "id": "aristoteles.txt::chunk1",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\aristoteles.txt",
+      "text": " of the ship-building art, a vessel; of the military art, victory; and of domestic management, wealth; are respectively the Ends. And whatever of such actions, arts, or sciences range under some one faculty (as under that of horsemanship the art of making bridles, and all that are connected with the manufacture of horse-furniture in general; this itself again, and every action connected with war, under the military art; and in the same way others under others), in all such, the Ends of the master-arts are more choice-worthy than those ranging under them, because it is with a view to the former that the latter are pursued. (And in this comparison it makes no difference whether the acts of working are themselves the Ends of the actions, or something further beside them, as is the case in the"
+    },
+    {
+      "id": "aristoteles.txt::chunk2",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\aristoteles.txt",
+      "text": "king are themselves the Ends of the actions, or something further beside them, as is the case in the arts and sciences we have been just speaking of.) Since then of all things which may be done there is some one End which we desire for its own sake, and with a view to which we desire everything else; and since we do not choose in all instances with a further End in view (for then men would go on without limit, and so the desire would be unsatisfied and fruitless), this plainly must be the Chief Good, _i.e._ the best thing of all. Surely then, even with reference to actual life and conduct, the knowledge of it must have great weight; and like archers, with a mark in view, we shall be more likely to hit upon what is right: and if so, we ought to try to describe, in outline at least, what it "
+    },
+    {
+      "id": "aristoteles.txt::chunk3",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\aristoteles.txt",
+      "text": "ely to hit upon what is right: and if so, we ought to try to describe, in outline at least, what it is and of which of the sciences and faculties it is the End. Now one would naturally suppose it to be the End of that which is most commanding and most inclusive: and to this description, πολιτικὴ[1] plainly answers: for this it is that determines which of the sciences should be in the communities, and which kind individuals are to learn, and what degree of proficiency is to be required. Again; we see also ranging under this the most highly esteemed faculties, such as the art military, and that of domestic management, and Rhetoric. Well then, since this uses all the other practical sciences, and moreover lays down rules as to what men are to do, and from what to abstain, the End of this must"
+    },
+    {
+      "id": "aristoteles.txt::chunk4",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\aristoteles.txt",
+      "text": "nd moreover lays down rules as to what men are to do, and from what to abstain, the End of this must include the Ends of the rest, and so must be The Good of Man. And grant that this is the same to the individual and to the community, yet surely that of the latter is plainly greater and more perfect to discover and preserve: for to do this even for a single individual were a matter for contentment; but to do it for a whole nation, and for communities generally, were more noble and godlike. Such then are the objects proposed by our treatise, which is of the nature of πολιτικὴ: and I conceive I shall have spoken on them satisfactorily, if they be made as distinctly clear as the nature of the subject-matter will admit: for exactness must not be looked for in all discussions alike, any more th"
+    },
+    {
+      "id": "aristoteles.txt::chunk5",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\aristoteles.txt",
+      "text": "ubject-matter will admit: for exactness must not be looked for in all discussions alike, any more than in all works of handicraft. Now the notions of nobleness and justice, with the examination of which πολιτικὴ is concerned, admit of variation and error to such a degree, that they are supposed by some to exist conventionally only, and not in the nature of things: but then, again, the things which are allowed to be goods admit of a similar error, because harm comes to many from them: for before now some have perished through wealth, and others through valour. We must be content then, in speaking of such things and from such data, to set forth the truth roughly and in outline; in other words, since we are speaking of general matter and from general data, to draw also conclusions merely gene"
+    },
+    {
+      "id": "aristoteles.txt::chunk6",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\aristoteles.txt",
+      "text": " since we are speaking of general matter and from general data, to draw also conclusions merely general. And in the same spirit should each person receive what we say: for the man of education will seek exactness so far in each subject as the nature of the thing admits, it being plainly much the same absurdity to put up with a mathematician who tries to persuade instead of proving, and to demand strict demonstrative reasoning of a Rhetorician. Now each man judges well what he knows, and of these things he is a good judge: on each particular matter then he is a good judge who has been instructed in _it_, and in a general way the man of general mental cultivation.[2] Hence the young man is not a fit student of Moral Philosophy, for he has no experience in the actions of life, while all that "
+    },
+    {
+      "id": "aristoteles.txt::chunk7",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\aristoteles.txt",
+      "text": " a fit student of Moral Philosophy, for he has no experience in the actions of life, while all that is said presupposes and is concerned with these: and in the next place, since he is apt to follow the impulses of his passions, he will hear as though he heard not, and to no profit, the end in view being practice and not mere knowledge. And I draw no distinction between young in years, and youthful in temper and disposition: the defect to which I allude being no direct result of the time, but of living at the beck and call of passion, and following each object as it rises.[3] For to them that are such the knowledge comes to be unprofitable, as to those of imperfect self-control: but, to those who form their desires and act in accordance with reason, to have knowledge on these points must be"
+    },
+    {
+      "id": "aristoteles.txt::chunk8",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\aristoteles.txt",
+      "text": " who form their desires and act in accordance with reason, to have knowledge on these points must be very profitable. Let thus much suffice by way of preface on these three points, the student, the spirit in which our observations should be received, and the object which we propose."
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk0",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "THE THREE PRESENTS OF D’ARTAGNAN THE ELDER On the first Monday of the month of April, 1625, the market town of Meung, in which the author of _Romance of the Rose_ was born, appeared to be in as perfect a state of revolution as if the Huguenots had just made a second La Rochelle of it. Many citizens, seeing the women flying toward the High Street, leaving their children crying at the open doors, hastened to don the cuirass, and supporting their somewhat uncertain courage with a musket or a partisan, directed their steps toward the hostelry of the Jolly Miller, before which was gathered, increasing every minute, a compact group, vociferous and full of curiosity. In those times panics were common, and few days passed without some city or other registering in its archives an event of this kind"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk1",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "on, and few days passed without some city or other registering in its archives an event of this kind. There were nobles, who made war against each other; there was the king, who made war against the cardinal; there was Spain, which made war against the king. Then, in addition to these concealed or public, secret or open wars, there were robbers, mendicants, Huguenots, wolves, and scoundrels, who made war upon everybody. The citizens always took up arms readily against thieves, wolves or scoundrels, often against nobles or Huguenots, sometimes against the king, but never against the cardinal or Spain. It resulted, then, from this habit that on the said first Monday of April, 1625, the citizens, on hearing the clamor, and seeing neither the red-and-yellow standard nor the livery of the Duc d"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk2",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "s, on hearing the clamor, and seeing neither the red-and-yellow standard nor the livery of the Duc de Richelieu, rushed toward the hostel of the Jolly Miller. When arrived there, the cause of the hubbub was apparent to all. A young man—we can sketch his portrait at a dash. Imagine to yourself a Don Quixote of eighteen; a Don Quixote without his corselet, without his coat of mail, without his cuisses; a Don Quixote clothed in a woolen doublet, the blue color of which had faded into a nameless shade between lees of wine and a heavenly azure; face long and brown; high cheek bones, a sign of sagacity; the maxillary muscles enormously developed, an infallible sign by which a Gascon may always be detected, even without his cap—and our young man wore a cap set off with a sort of feather; the eye "
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk3",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "detected, even without his cap—and our young man wore a cap set off with a sort of feather; the eye open and intelligent; the nose hooked, but finely chiseled. Too big for a youth, too small for a grown man, an experienced eye might have taken him for a farmer’s son upon a journey had it not been for the long sword which, dangling from a leather baldric, hit against the calves of its owner as he walked, and against the rough side of his steed when he was on horseback. For our young man had a steed which was the observed of all observers. It was a Béarn pony, from twelve to fourteen years old, yellow in his hide, without a hair in his tail, but not without windgalls on his legs, which, though going with his head lower than his knees, rendering a martingale quite unnecessary, contrived never"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk4",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": " going with his head lower than his knees, rendering a martingale quite unnecessary, contrived nevertheless to perform his eight leagues a day. Unfortunately, the qualities of this horse were so well concealed under his strange-colored hide and his unaccountable gait, that at a time when everybody was a connoisseur in horseflesh, the appearance of the aforesaid pony at Meung—which place he had entered about a quarter of an hour before, by the gate of Beaugency—produced an unfavorable feeling, which extended to his rider. And this feeling had been more painfully perceived by young D’Artagnan—for so was the Don Quixote of this second Rosinante named—from his not being able to conceal from himself the ridiculous appearance that such a steed gave him, good horseman as he was. He had sighed dee"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk5",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "elf the ridiculous appearance that such a steed gave him, good horseman as he was. He had sighed deeply, therefore, when accepting the gift of the pony from M. d’Artagnan the elder. He was not ignorant that such a beast was worth at least twenty livres; and the words which had accompanied the present were above all price. “My son,” said the old Gascon gentleman, in that pure Béarn _patois_ of which Henry IV. could never rid himself, “this horse was born in the house of your father about thirteen years ago, and has remained in it ever since, which ought to make you love it. Never sell it; allow it to die tranquilly and honorably of old age, and if you make a campaign with it, take as much care of it as you would of an old servant. At court, provided you have ever the honor to go there,” con"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk6",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "e of it as you would of an old servant. At court, provided you have ever the honor to go there,” continued M. d’Artagnan the elder, “—an honor to which, remember, your ancient nobility gives you the right—sustain worthily your name of gentleman, which has been worthily borne by your ancestors for five hundred years, both for your own sake and the sake of those who belong to you. By the latter I mean your relatives and friends. Endure nothing from anyone except Monsieur the Cardinal and the king. It is by his courage, please observe, by his courage alone, that a gentleman can make his way nowadays. Whoever hesitates for a second perhaps allows the bait to escape which during that exact second fortune held out to him. You are young. You ought to be brave for two reasons: the first is that yo"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk7",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": " fortune held out to him. You are young. You ought to be brave for two reasons: the first is that you are a Gascon, and the second is that you are my son. Never fear quarrels, but seek adventures. I have taught you how to handle a sword; you have thews of iron, a wrist of steel. Fight on all occasions. Fight the more for duels being forbidden, since consequently there is twice as much courage in fighting. I have nothing to give you, my son, but fifteen crowns, my horse, and the counsels you have just heard. Your mother will add to them a recipe for a certain balsam, which she had from a Bohemian and which has the miraculous virtue of curing all wounds that do not reach the heart. Take advantage of all, and live happily and long. I have but one word to add, and that is to propose an example"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk8",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "age of all, and live happily and long. I have but one word to add, and that is to propose an example to you—not mine, for I myself have never appeared at court, and have only taken part in religious wars as a volunteer; I speak of Monsieur de Tréville, who was formerly my neighbor, and who had the honor to be, as a child, the play-fellow of our king, Louis XIII., whom God preserve! Sometimes their play degenerated into battles, and in these battles the king was not always the stronger. The blows which he received increased greatly his esteem and friendship for Monsieur de Tréville. Afterward, Monsieur de Tréville fought with others: in his first journey to Paris, five times; from the death of the late king till the young one came of age, without reckoning wars and sieges, seven times; and "
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk9",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "f the late king till the young one came of age, without reckoning wars and sieges, seven times; and from that date up to the present day, a hundred times, perhaps! So that in spite of edicts, ordinances, and decrees, there he is, captain of the Musketeers; that is to say, chief of a legion of Cæsars, whom the king holds in great esteem and whom the cardinal dreads—he who dreads nothing, as it is said. Still further, Monsieur de Tréville gains ten thousand crowns a year; he is therefore a great noble. He began as you begin. Go to him with this letter, and make him your model in order that you may do as he has done.” Upon which M. d’Artagnan the elder girded his own sword round his son, kissed him tenderly on both cheeks, and gave him his benediction. On leaving the paternal chamber, the you"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk10",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": " him tenderly on both cheeks, and gave him his benediction. On leaving the paternal chamber, the young man found his mother, who was waiting for him with the famous recipe of which the counsels we have just repeated would necessitate frequent employment. The adieux were on this side longer and more tender than they had been on the other—not that M. d’Artagnan did not love his son, who was his only offspring, but M. d’Artagnan was a man, and he would have considered it unworthy of a man to give way to his feelings; whereas Mme. D’Artagnan was a woman, and still more, a mother. She wept abundantly; and—let us speak it to the praise of M. d’Artagnan the younger—notwithstanding the efforts he made to remain firm, as a future Musketeer ought, nature prevailed, and he shed many tears, of which h"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk11",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "de to remain firm, as a future Musketeer ought, nature prevailed, and he shed many tears, of which he succeeded with great difficulty in concealing the half. The same day the young man set forward on his journey, furnished with the three paternal gifts, which consisted, as we have said, of fifteen crowns, the horse, and the letter for M. de Tréville—the counsels being thrown into the bargain. With such a _vade mecum_ D’Artagnan was morally and physically an exact copy of the hero of Cervantes, to whom we so happily compared him when our duty of an historian placed us under the necessity of sketching his portrait. Don Quixote took windmills for giants, and sheep for armies; D’Artagnan took every smile for an insult, and every look as a provocation—whence it resulted that from Tarbes to Meun"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk12",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "ery smile for an insult, and every look as a provocation—whence it resulted that from Tarbes to Meung his fist was constantly doubled, or his hand on the hilt of his sword; and yet the fist did not descend upon any jaw, nor did the sword issue from its scabbard. It was not that the sight of the wretched pony did not excite numerous smiles on the countenances of passers-by; but as against the side of this pony rattled a sword of respectable length, and as over this sword gleamed an eye rather ferocious than haughty, these passers-by repressed their hilarity, or if hilarity prevailed over prudence, they endeavored to laugh only on one side, like the masks of the ancients. D’Artagnan, then, remained majestic and intact in his susceptibility, till he came to this unlucky city of Meung. But the"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk13",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "ained majestic and intact in his susceptibility, till he came to this unlucky city of Meung. But there, as he was alighting from his horse at the gate of the Jolly Miller, without anyone—host, waiter, or hostler—coming to hold his stirrup or take his horse, D’Artagnan spied, though an open window on the ground floor, a gentleman, well-made and of good carriage, although of rather a stern countenance, talking with two persons who appeared to listen to him with respect. D’Artagnan fancied quite naturally, according to his custom, that he must be the object of their conversation, and listened. This time D’Artagnan was only in part mistaken; he himself was not in question, but his horse was. The gentleman appeared to be enumerating all his qualities to his auditors; and, as I have said, the au"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk14",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": " gentleman appeared to be enumerating all his qualities to his auditors; and, as I have said, the auditors seeming to have great deference for the narrator, they every moment burst into fits of laughter. Now, as a half-smile was sufficient to awaken the irascibility of the young man, the effect produced upon him by this vociferous mirth may be easily imagined. Nevertheless, D’Artagnan was desirous of examining the appearance of this impertinent personage who ridiculed him. He fixed his haughty eye upon the stranger, and perceived a man of from forty to forty-five years of age, with black and piercing eyes, pale complexion, a strongly marked nose, and a black and well-shaped mustache. He was dressed in a doublet and hose of a violet color, with aiguillettes of the same color, without any ot"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk15",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "dressed in a doublet and hose of a violet color, with aiguillettes of the same color, without any other ornaments than the customary slashes, through which the shirt appeared. This doublet and hose, though new, were creased, like traveling clothes for a long time packed in a portmanteau. D’Artagnan made all these remarks with the rapidity of a most minute observer, and doubtless from an instinctive feeling that this stranger was destined to have a great influence over his future life. Now, as at the moment in which D’Artagnan fixed his eyes upon the gentleman in the violet doublet, the gentleman made one of his most knowing and profound remarks respecting the Béarnese pony, his two auditors laughed even louder than before, and he himself, though contrary to his custom, allowed a pale smile"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk16",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "laughed even louder than before, and he himself, though contrary to his custom, allowed a pale smile (if I may be allowed to use such an expression) to stray over his countenance. This time there could be no doubt; D’Artagnan was really insulted. Full, then, of this conviction, he pulled his cap down over his eyes, and endeavoring to copy some of the court airs he had picked up in Gascony among young traveling nobles, he advanced with one hand on the hilt of his sword and the other resting on his hip. Unfortunately, as he advanced, his anger increased at every step; and instead of the proper and lofty speech he had prepared as a prelude to his challenge, he found nothing at the tip of his tongue but a gross personality, which he accompanied with a furious gesture. “I say, sir, you sir, who"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk17",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "ngue but a gross personality, which he accompanied with a furious gesture. “I say, sir, you sir, who are hiding yourself behind that shutter—yes, you, sir, tell me what you are laughing at, and we will laugh together!” The gentleman raised his eyes slowly from the nag to his cavalier, as if he required some time to ascertain whether it could be to him that such strange reproaches were addressed; then, when he could not possibly entertain any doubt of the matter, his eyebrows slightly bent, and with an accent of irony and insolence impossible to be described, he replied to D’Artagnan, “I was not speaking to you, sir.” “But I am speaking to you!” replied the young man, additionally exasperated with this mixture of insolence and good manners, of politeness and scorn. The stranger looked at hi"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk18",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": " with this mixture of insolence and good manners, of politeness and scorn. The stranger looked at him again with a slight smile, and retiring from the window, came out of the hostelry with a slow step, and placed himself before the horse, within two paces of D’Artagnan. His quiet manner and the ironical expression of his countenance redoubled the mirth of the persons with whom he had been talking, and who still remained at the window. D’Artagnan, seeing him approach, drew his sword a foot out of the scabbard. “This horse is decidedly, or rather has been in his youth, a buttercup,” resumed the stranger, continuing the remarks he had begun, and addressing himself to his auditors at the window, without paying the least attention to the exasperation of D’Artagnan, who, however, placed himself "
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk19",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": " without paying the least attention to the exasperation of D’Artagnan, who, however, placed himself between him and them. “It is a color very well known in botany, but till the present time very rare among horses.” “There are people who laugh at the horse that would not dare to laugh at the master,” cried the young emulator of the furious Tréville. “I do not often laugh, sir,” replied the stranger, “as you may perceive by the expression of my countenance; but nevertheless I retain the privilege of laughing when I please.” “And I,” cried D’Artagnan, “will allow no man to laugh when it displeases me!” “Indeed, sir,” continued the stranger, more calm than ever; “well, that is perfectly right!” and turning on his heel, was about to re-enter the hostelry by the front gate, beneath which D’Artag"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk20",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "and turning on his heel, was about to re-enter the hostelry by the front gate, beneath which D’Artagnan on arriving had observed a saddled horse. But, D’Artagnan was not of a character to allow a man to escape him thus who had the insolence to ridicule him. He drew his sword entirely from the scabbard, and followed him, crying, “Turn, turn, Master Joker, lest I strike you behind!” “Strike me!” said the other, turning on his heels, and surveying the young man with as much astonishment as contempt. “Why, my good fellow, you must be mad!” Then, in a suppressed tone, as if speaking to himself, “This is annoying,” continued he. “What a godsend this would be for his Majesty, who is seeking everywhere for brave fellows to recruit for his Musketeers!” He had scarcely finished, when D’Artagnan made"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk21",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "ere for brave fellows to recruit for his Musketeers!” He had scarcely finished, when D’Artagnan made such a furious lunge at him that if he had not sprung nimbly backward, it is probable he would have jested for the last time. The stranger, then perceiving that the matter went beyond raillery, drew his sword, saluted his adversary, and seriously placed himself on guard. But at the same moment, his two auditors, accompanied by the host, fell upon D’Artagnan with sticks, shovels and tongs. This caused so rapid and complete a diversion from the attack that D’Artagnan’s adversary, while the latter turned round to face this shower of blows, sheathed his sword with the same precision, and instead of an actor, which he had nearly been, became a spectator of the fight—a part in which he acquitted "
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk22",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "of an actor, which he had nearly been, became a spectator of the fight—a part in which he acquitted himself with his usual impassiveness, muttering, nevertheless, “A plague upon these Gascons! Replace him on his orange horse, and let him begone!” “Not before I have killed you, poltroon!” cried D’Artagnan, making the best face possible, and never retreating one step before his three assailants, who continued to shower blows upon him. “Another gasconade!” murmured the gentleman. “By my honor, these Gascons are incorrigible! Keep up the dance, then, since he will have it so. When he is tired, he will perhaps tell us that he has had enough of it.” But the stranger knew not the headstrong personage he had to do with; D’Artagnan was not the man ever to cry for quarter. The fight was therefore pr"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk23",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "ge he had to do with; D’Artagnan was not the man ever to cry for quarter. The fight was therefore prolonged for some seconds; but at length D’Artagnan dropped his sword, which was broken in two pieces by the blow of a stick. Another blow full upon his forehead at the same moment brought him to the ground, covered with blood and almost fainting. It was at this moment that people came flocking to the scene of action from all sides. The host, fearful of consequences, with the help of his servants carried the wounded man into the kitchen, where some trifling attentions were bestowed upon him. As to the gentleman, he resumed his place at the window, and surveyed the crowd with a certain impatience, evidently annoyed by their remaining undispersed. “Well, how is it with this madman?” exclaimed h"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk24",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "e, evidently annoyed by their remaining undispersed. “Well, how is it with this madman?” exclaimed he, turning round as the noise of the door announced the entrance of the host, who came in to inquire if he was unhurt. “Your Excellency is safe and sound?” asked the host. “Oh, yes! Perfectly safe and sound, my good host; and I wish to know what has become of our young man.” “He is better,” said the host, “he fainted quite away.” “Indeed!” said the gentleman. “But before he fainted, he collected all his strength to challenge you, and to defy you while challenging you.” “Why, this fellow must be the devil in person!” cried the stranger. “Oh, no, your Excellency, he is not the devil,” replied the host, with a grin of contempt; “for during his fainting we rummaged his valise and found nothing b"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk25",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "e host, with a grin of contempt; “for during his fainting we rummaged his valise and found nothing but a clean shirt and eleven crowns—which however, did not prevent his saying, as he was fainting, that if such a thing had happened in Paris, you should have cause to repent of it at a later period.” “Then,” said the stranger coolly, “he must be some prince in disguise.” “I have told you this, good sir,” resumed the host, “in order that you may be on your guard.” “Did he name no one in his passion?” “Yes; he struck his pocket and said, ‘We shall see what Monsieur de Tréville will think of this insult offered to his _protégé_.’” “Monsieur de Tréville?” said the stranger, becoming attentive, “he put his hand upon his pocket while pronouncing the name of Monsieur de Tréville? Now, my dear host,"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk26",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": " put his hand upon his pocket while pronouncing the name of Monsieur de Tréville? Now, my dear host, while your young man was insensible, you did not fail, I am quite sure, to ascertain what that pocket contained. What was there in it?” “A letter addressed to Monsieur de Tréville, captain of the Musketeers.” “Indeed!” “Exactly as I have the honor to tell your Excellency.” The host, who was not endowed with great perspicacity, did not observe the expression which his words had given to the physiognomy of the stranger. The latter rose from the front of the window, upon the sill of which he had leaned with his elbow, and knitted his brow like a man disquieted. “The devil!” murmured he, between his teeth. “Can Tréville have set this Gascon upon me? He is very young; but a sword thrust is a swo"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk27",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "his teeth. “Can Tréville have set this Gascon upon me? He is very young; but a sword thrust is a sword thrust, whatever be the age of him who gives it, and a youth is less to be suspected than an older man,” and the stranger fell into a reverie which lasted some minutes. “A weak obstacle is sometimes sufficient to overthrow a great design. “Host,” said he, “could you not contrive to get rid of this frantic boy for me? In conscience, I cannot kill him; and yet,” added he, with a coldly menacing expression, “he annoys me. Where is he?” “In my wife’s chamber, on the first flight, where they are dressing his wounds.” “His things and his bag are with him? Has he taken off his doublet?” “On the contrary, everything is in the kitchen. But if he annoys you, this young fool—” “To be sure he does. H"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk28",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "ntrary, everything is in the kitchen. But if he annoys you, this young fool—” “To be sure he does. He causes a disturbance in your hostelry, which respectable people cannot put up with. Go; make out my bill and notify my servant.” “What, monsieur, will you leave us so soon?” “You know that very well, as I gave my order to saddle my horse. Have they not obeyed me?” “It is done; as your Excellency may have observed, your horse is in the great gateway, ready saddled for your departure.” “That is well; do as I have directed you, then.” “What the devil!” said the host to himself. “Can he be afraid of this boy?” But an imperious glance from the stranger stopped him short; he bowed humbly and retired. “It is not necessary for Milady* to be seen by this fellow,” continued the stranger. “She will s"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk29",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "ed. “It is not necessary for Milady* to be seen by this fellow,” continued the stranger. “She will soon pass; she is already late. I had better get on horseback, and go and meet her. I should like, however, to know what this letter addressed to Tréville contains.” And the stranger, muttering to himself, directed his steps toward the kitchen. * We are well aware that this term, milady, is only properly used when followed by a family name. But we find it thus in the manuscript, and we do not choose to take upon ourselves to alter it. In the meantime, the host, who entertained no doubt that it was the presence of the young man that drove the stranger from his hostelry, re-ascended to his wife’s chamber, and found D’Artagnan just recovering his senses. Giving him to understand that the police "
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk30",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": " chamber, and found D’Artagnan just recovering his senses. Giving him to understand that the police would deal with him pretty severely for having sought a quarrel with a great lord—for in the opinion of the host the stranger could be nothing less than a great lord—he insisted that notwithstanding his weakness D’Artagnan should get up and depart as quickly as possible. D’Artagnan, half stupefied, without his doublet, and with his head bound up in a linen cloth, arose then, and urged by the host, began to descend the stairs; but on arriving at the kitchen, the first thing he saw was his antagonist talking calmly at the step of a heavy carriage, drawn by two large Norman horses. His interlocutor, whose head appeared through the carriage window, was a woman of from twenty to two-and-twenty ye"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk31",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "or, whose head appeared through the carriage window, was a woman of from twenty to two-and-twenty years. We have already observed with what rapidity D’Artagnan seized the expression of a countenance. He perceived then, at a glance, that this woman was young and beautiful; and her style of beauty struck him more forcibly from its being totally different from that of the southern countries in which D’Artagnan had hitherto resided. She was pale and fair, with long curls falling in profusion over her shoulders, had large, blue, languishing eyes, rosy lips, and hands of alabaster. She was talking with great animation with the stranger. “His Eminence, then, orders me—” said the lady. “To return instantly to England, and to inform him as soon as the duke leaves London.” “And as to my other instru"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk32",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "stantly to England, and to inform him as soon as the duke leaves London.” “And as to my other instructions?” asked the fair traveler. “They are contained in this box, which you will not open until you are on the other side of the Channel.” “Very well; and you—what will you do?” “I—I return to Paris.” “What, without chastising this insolent boy?” asked the lady. The stranger was about to reply; but at the moment he opened his mouth, D’Artagnan, who had heard all, precipitated himself over the threshold of the door. “This insolent boy chastises others,” cried he; “and I hope that this time he whom he ought to chastise will not escape him as before.” “Will not escape him?” replied the stranger, knitting his brow. “No; before a woman you would dare not fly, I presume?” “Remember,” said Milady,"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk33",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": " knitting his brow. “No; before a woman you would dare not fly, I presume?” “Remember,” said Milady, seeing the stranger lay his hand on his sword, “the least delay may ruin everything.” “You are right,” cried the gentleman; “begone then, on your part, and I will depart as quickly on mine.” And bowing to the lady, he sprang into his saddle, while her coachman applied his whip vigorously to his horses. The two interlocutors thus separated, taking opposite directions, at full gallop. “Pay him, booby!” cried the stranger to his servant, without checking the speed of his horse; and the man, after throwing two or three silver pieces at the foot of mine host, galloped after his master. “Base coward! false gentleman!” cried D’Artagnan, springing forward, in his turn, after the servant. But his wo"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk34",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "d! false gentleman!” cried D’Artagnan, springing forward, in his turn, after the servant. But his wound had rendered him too weak to support such an exertion. Scarcely had he gone ten steps when his ears began to tingle, a faintness seized him, a cloud of blood passed over his eyes, and he fell in the middle of the street, crying still, “Coward! coward! coward!” “He is a coward, indeed,” grumbled the host, drawing near to D’Artagnan, and endeavoring by this little flattery to make up matters with the young man, as the heron of the fable did with the snail he had despised the evening before. “Yes, a base coward,” murmured D’Artagnan; “but she—she was very beautiful.” “What _she?_” demanded the host. “Milady,” faltered D’Artagnan, and fainted a second time. “Ah, it’s all one,” said the host;"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk35",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "e host. “Milady,” faltered D’Artagnan, and fainted a second time. “Ah, it’s all one,” said the host; “I have lost two customers, but this one remains, of whom I am pretty certain for some days to come. There will be eleven crowns gained.” It is to be remembered that eleven crowns was just the sum that remained in D’Artagnan’s purse. The host had reckoned upon eleven days of confinement at a crown a day, but he had reckoned without his guest. On the following morning at five o’clock D’Artagnan arose, and descending to the kitchen without help, asked, among other ingredients the list of which has not come down to us, for some oil, some wine, and some rosemary, and with his mother’s recipe in his hand composed a balsam, with which he anointed his numerous wounds, replacing his bandages himsel"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk36",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "is hand composed a balsam, with which he anointed his numerous wounds, replacing his bandages himself, and positively refusing the assistance of any doctor, D’Artagnan walked about that same evening, and was almost cured by the morrow. But when the time came to pay for his rosemary, this oil, and the wine, the only expense the master had incurred, as he had preserved a strict abstinence—while on the contrary, the yellow horse, by the account of the hostler at least, had eaten three times as much as a horse of his size could reasonably be supposed to have done—D’Artagnan found nothing in his pocket but his little old velvet purse with the eleven crowns it contained; for as to the letter addressed to M. de Tréville, it had disappeared. The young man commenced his search for the letter with t"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk37",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "ssed to M. de Tréville, it had disappeared. The young man commenced his search for the letter with the greatest patience, turning out his pockets of all kinds over and over again, rummaging and rerummaging in his valise, and opening and reopening his purse; but when he found that he had come to the conviction that the letter was not to be found, he flew, for the third time, into such a rage as was near costing him a fresh consumption of wine, oil, and rosemary—for upon seeing this hot-headed youth become exasperated and threaten to destroy everything in the establishment if his letter were not found, the host seized a spit, his wife a broom handle, and the servants the same sticks they had used the day before. “My letter of recommendation!” cried D’Artagnan, “my letter of recommendation! o"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk38",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "sed the day before. “My letter of recommendation!” cried D’Artagnan, “my letter of recommendation! or, the holy blood, I will spit you all like ortolans!” Unfortunately, there was one circumstance which created a powerful obstacle to the accomplishment of this threat; which was, as we have related, that his sword had been in his first conflict broken in two, and which he had entirely forgotten. Hence, it resulted when D’Artagnan proceeded to draw his sword in earnest, he found himself purely and simply armed with a stump of a sword about eight or ten inches in length, which the host had carefully placed in the scabbard. As to the rest of the blade, the master had slyly put that on one side to make himself a larding pin. But this deception would probably not have stopped our fiery young man"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk39",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "o make himself a larding pin. But this deception would probably not have stopped our fiery young man if the host had not reflected that the reclamation which his guest made was perfectly just. “But, after all,” said he, lowering the point of his spit, “where is this letter?” “Yes, where is this letter?” cried D’Artagnan. “In the first place, I warn you that that letter is for Monsieur de Tréville, and it must be found, or if it is not found, he will know how to find it.” His threat completed the intimidation of the host. After the king and the cardinal, M. de Tréville was the man whose name was perhaps most frequently repeated by the military, and even by citizens. There was, to be sure, Father Joseph, but his name was never pronounced but with a subdued voice, such was the terror inspired"
+    },
+    {
+      "id": "de-3-musketerer.txt::chunk40",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\de-3-musketerer.txt",
+      "text": "her Joseph, but his name was never pronounced but with a subdued voice, such was the terror inspired by his Gray Eminence, as the cardinal’s familiar was called. Throwing down his spit, and ordering his wife to do the same with her broom handle, and the servants with their sticks, he set the first example of commencing an earnest search for the lost letter. “Does the letter contain anything valuable?” demanded the host, after a few minutes of useless investigation. “Zounds! I think it does indeed!” cried the Gascon, who reckoned upon this letter for making his way at court. “It contained my fortune!” “Bills upon Spain?” asked the disturbed host."
+    },
+    {
+      "id": "huckleberry-finn.txt::chunk0",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\huckleberry-finn.txt",
+      "text": "You don’t know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain’t no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary. Aunt Polly—Tom’s Aunt Polly, she is—and Mary, and the Widow Douglas is all told about in that book, which is mostly a true book, with some stretchers, as I said before. Now the way that the book winds up is this: Tom and me found the money that the robbers hid in the cave, and it made us rich. We got six thousand dollars apiece—all gold. It was an awful sight of money when it was piled up. Well, Judge Thatcher he"
+    },
+    {
+      "id": "huckleberry-finn.txt::chunk1",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\huckleberry-finn.txt",
+      "text": "ollars apiece—all gold. It was an awful sight of money when it was piled up. Well, Judge Thatcher he took it and put it out at interest, and it fetched us a dollar a day apiece all the year round—more than a body could tell what to do with. The Widow Douglas she took me for her son, and allowed she would sivilize me; but it was rough living in the house all the time, considering how dismal regular and decent the widow was in all her ways; and so when I couldn’t stand it no longer I lit out. I got into my old rags and my sugar-hogshead again, and was free and satisfied. But Tom Sawyer he hunted me up and said he was going to start a band of robbers, and I might join if I would go back to the widow and be respectable. So I went back. The widow she cried over me, and called me a poor lost lam"
+    },
+    {
+      "id": "huckleberry-finn.txt::chunk2",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\huckleberry-finn.txt",
+      "text": "widow and be respectable. So I went back. The widow she cried over me, and called me a poor lost lamb, and she called me a lot of other names, too, but she never meant no harm by it. She put me in them new clothes again, and I couldn’t do nothing but sweat and sweat, and feel all cramped up. Well, then, the old thing commenced again. The widow rung a bell for supper, and you had to come to time. When you got to the table you couldn’t go right to eating, but you had to wait for the widow to tuck down her head and grumble a little over the victuals, though there warn’t really anything the matter with them,—that is, nothing only everything was cooked by itself. In a barrel of odds and ends it is different; things get mixed up, and the juice kind of swaps around, and the things go better. Afte"
+    },
+    {
+      "id": "huckleberry-finn.txt::chunk3",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\huckleberry-finn.txt",
+      "text": "s different; things get mixed up, and the juice kind of swaps around, and the things go better. After supper she got out her book and learned me about Moses and the Bulrushers, and I was in a sweat to find out all about him; but by-and-by she let it out that Moses had been dead a considerable long time; so then I didn’t care no more about him, because I don’t take no stock in dead people. Pretty soon I wanted to smoke, and asked the widow to let me. But she wouldn’t. She said it was a mean practice and wasn’t clean, and I must try to not do it any more. That is just the way with some people. They get down on a thing when they don’t know nothing about it. Here she was a-bothering about Moses, which was no kin to her, and no use to anybody, being gone, you see, yet finding a power of fault w"
+    },
+    {
+      "id": "huckleberry-finn.txt::chunk4",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\huckleberry-finn.txt",
+      "text": " which was no kin to her, and no use to anybody, being gone, you see, yet finding a power of fault with me for doing a thing that had some good in it. And she took snuff, too; of course that was all right, because she done it herself. Her sister, Miss Watson, a tolerable slim old maid, with goggles on, had just come to live with her, and took a set at me now with a spelling-book. She worked me middling hard for about an hour, and then the widow made her ease up. I couldn’t stood it much longer. Then for an hour it was deadly dull, and I was fidgety. Miss Watson would say, “Don’t put your feet up there, Huckleberry;” and “Don’t scrunch up like that, Huckleberry—set up straight;” and pretty soon she would say, “Don’t gap and stretch like that, Huckleberry—why don’t you try to behave?” Then s"
+    },
+    {
+      "id": "huckleberry-finn.txt::chunk5",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\huckleberry-finn.txt",
+      "text": "on she would say, “Don’t gap and stretch like that, Huckleberry—why don’t you try to behave?” Then she told me all about the bad place, and I said I wished I was there. She got mad then, but I didn’t mean no harm. All I wanted was to go somewheres; all I wanted was a change, I warn’t particular. She said it was wicked to say what I said; said she wouldn’t say it for the whole world; she was going to live so as to go to the good place. Well, I couldn’t see no advantage in going where she was going, so I made up my mind I wouldn’t try for it. But I never said so, because it would only make trouble, and wouldn’t do no good. Now she had got a start, and she went on and told me all about the good place. She said all a body would have to do there was to go around all day long with a harp and sin"
+    },
+    {
+      "id": "huckleberry-finn.txt::chunk6",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\huckleberry-finn.txt",
+      "text": " place. She said all a body would have to do there was to go around all day long with a harp and sing, forever and ever. So I didn’t think much of it. But I never said so. I asked her if she reckoned Tom Sawyer would go there, and she said not by a considerable sight. I was glad about that, because I wanted him and me to be together. Miss Watson she kept pecking at me, and it got tiresome and lonesome. By-and-by they fetched the niggers in and had prayers, and then everybody was off to bed. I went up to my room with a piece of candle, and put it on the table. Then I set down in a chair by the window and tried to think of something cheerful, but it warn’t no use. I felt so lonesome I most wished I was dead. The stars were shining, and the leaves rustled in the woods ever so mournful; and I "
+    },
+    {
+      "id": "huckleberry-finn.txt::chunk7",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\huckleberry-finn.txt",
+      "text": "hed I was dead. The stars were shining, and the leaves rustled in the woods ever so mournful; and I heard an owl, away off, who-whooing about somebody that was dead, and a whippowill and a dog crying about somebody that was going to die; and the wind was trying to whisper something to me, and I couldn’t make out what it was, and so it made the cold shivers run over me. Then away out in the woods I heard that kind of a sound that a ghost makes when it wants to tell about something that’s on its mind and can’t make itself understood, and so can’t rest easy in its grave, and has to go about that way every night grieving. I got so down-hearted and scared I did wish I had some company. Pretty soon a spider went crawling up my shoulder, and I flipped it off and it lit in the candle; and before I"
+    },
+    {
+      "id": "huckleberry-finn.txt::chunk8",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\huckleberry-finn.txt",
+      "text": "n a spider went crawling up my shoulder, and I flipped it off and it lit in the candle; and before I could budge it was all shriveled up. I didn’t need anybody to tell me that that was an awful bad sign and would fetch me some bad luck, so I was scared and most shook the clothes off of me. I got up and turned around in my tracks three times and crossed my breast every time; and then I tied up a little lock of my hair with a thread to keep witches away. But I hadn’t no confidence. You do that when you’ve lost a horseshoe that you’ve found, instead of nailing it up over the door, but I hadn’t ever heard anybody say it was any way to keep off bad luck when you’d killed a spider. I set down again, a-shaking all over, and got out my pipe for a smoke; for the house was all as still as death now,"
+    },
+    {
+      "id": "huckleberry-finn.txt::chunk9",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\huckleberry-finn.txt",
+      "text": "n, a-shaking all over, and got out my pipe for a smoke; for the house was all as still as death now, and so the widow wouldn’t know. Well, after a long time I heard the clock away off in the town go boom—boom—boom—twelve licks; and all still again—stiller than ever. Pretty soon I heard a twig snap down in the dark amongst the trees—something was a stirring. I set still and listened. Directly I could just barely hear a “_me-yow! me-yow!_” down there. That was good! Says I, “_me-yow! me-yow!_” as soft as I could, and then I put out the light and scrambled out of the window on to the shed. Then I slipped down to the ground and crawled in among the trees, and, sure enough, there was Tom Sawyer waiting for me."
+    },
+    {
+      "id": "johncarter.txt::chunk0",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "I am a very old man; how old I do not know. Possibly I am a hundred, possibly more; but I cannot tell because I have never aged as other men, nor do I remember any childhood. So far as I can recollect I have always been a man, a man of about thirty. I appear today as I did forty years and more ago, and yet I feel that I cannot go on living forever; that some day I shall die the real death from which there is no resurrection. I do not know why I should fear death, I who have died twice and am still alive; but yet I have the same horror of it as you who have never died, and it is because of this terror of death, I believe, that I am so convinced of my mortality. And because of this conviction I have determined to write down the story of the interesting periods of my life and of my death. I c"
+    },
+    {
+      "id": "johncarter.txt::chunk1",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "I have determined to write down the story of the interesting periods of my life and of my death. I cannot explain the phenomena; I can only set down here in the words of an ordinary soldier of fortune a chronicle of the strange events that befell me during the ten years that my dead body lay undiscovered in an Arizona cave. I have never told this story, nor shall mortal man see this manuscript until after I have passed over for eternity. I know that the average human mind will not believe what it cannot grasp, and so I do not purpose being pilloried by the public, the pulpit, and the press, and held up as a colossal liar when I am but telling the simple truths which some day science will substantiate. Possibly the suggestions which I gained upon Mars, and the knowledge which I can set down"
+    },
+    {
+      "id": "johncarter.txt::chunk2",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "stantiate. Possibly the suggestions which I gained upon Mars, and the knowledge which I can set down in this chronicle, will aid in an earlier understanding of the mysteries of our sister planet; mysteries to you, but no longer mysteries to me. My name is John Carter; I am better known as Captain Jack Carter of Virginia. At the close of the Civil War I found myself possessed of several hundred thousand dollars (Confederate) and a captain’s commission in the cavalry arm of an army which no longer existed; the servant of a state which had vanished with the hopes of the South. Masterless, penniless, and with my only means of livelihood, fighting, gone, I determined to work my way to the southwest and attempt to retrieve my fallen fortunes in a search for gold. I spent nearly a year prospectin"
+    },
+    {
+      "id": "johncarter.txt::chunk3",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "st and attempt to retrieve my fallen fortunes in a search for gold. I spent nearly a year prospecting in company with another Confederate officer, Captain James K. Powell of Richmond. We were extremely fortunate, for late in the winter of 1865, after many hardships and privations, we located the most remarkable gold-bearing quartz vein that our wildest dreams had ever pictured. Powell, who was a mining engineer by education, stated that we had uncovered over a million dollars worth of ore in a trifle over three months. As our equipment was crude in the extreme we decided that one of us must return to civilization, purchase the necessary machinery and return with a sufficient force of men properly to work the mine. As Powell was familiar with the country, as well as with the mechanical requ"
+    },
+    {
+      "id": "johncarter.txt::chunk4",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "perly to work the mine. As Powell was familiar with the country, as well as with the mechanical requirements of mining we determined that it would be best for him to make the trip. It was agreed that I was to hold down our claim against the remote possibility of its being jumped by some wandering prospector. On March 3, 1866, Powell and I packed his provisions on two of our burros, and bidding me good-bye he mounted his horse, and started down the mountainside toward the valley, across which led the first stage of his journey. The morning of Powell’s departure was, like nearly all Arizona mornings, clear and beautiful; I could see him and his little pack animals picking their way down the mountainside toward the valley, and all during the morning I would catch occasional glimpses of them a"
+    },
+    {
+      "id": "johncarter.txt::chunk5",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "untainside toward the valley, and all during the morning I would catch occasional glimpses of them as they topped a hog back or came out upon a level plateau. My last sight of Powell was about three in the afternoon as he entered the shadows of the range on the opposite side of the valley. Some half hour later I happened to glance casually across the valley and was much surprised to note three little dots in about the same place I had last seen my friend and his two pack animals. I am not given to needless worrying, but the more I tried to convince myself that all was well with Powell, and that the dots I had seen on his trail were antelope or wild horses, the less I was able to assure myself. Since we had entered the territory we had not seen a hostile Indian, and we had, therefore, becom"
+    },
+    {
+      "id": "johncarter.txt::chunk6",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "f. Since we had entered the territory we had not seen a hostile Indian, and we had, therefore, become careless in the extreme, and were wont to ridicule the stories we had heard of the great numbers of these vicious marauders that were supposed to haunt the trails, taking their toll in lives and torture of every white party which fell into their merciless clutches. Powell, I knew, was well armed and, further, an experienced Indian fighter; but I too had lived and fought for years among the Sioux in the North, and I knew that his chances were small against a party of cunning trailing Apaches. Finally I could endure the suspense no longer, and, arming myself with my two Colt revolvers and a carbine, I strapped two belts of cartridges about me and catching my saddle horse, started down the tr"
+    },
+    {
+      "id": "johncarter.txt::chunk7",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "rbine, I strapped two belts of cartridges about me and catching my saddle horse, started down the trail taken by Powell in the morning. As soon as I reached comparatively level ground I urged my mount into a canter and continued this, where the going permitted, until, close upon dusk, I discovered the point where other tracks joined those of Powell. They were the tracks of unshod ponies, three of them, and the ponies had been galloping. I followed rapidly until, darkness shutting down, I was forced to await the rising of the moon, and given an opportunity to speculate on the question of the wisdom of my chase. Possibly I had conjured up impossible dangers, like some nervous old housewife, and when I should catch up with Powell would get a good laugh for my pains. However, I am not prone to"
+    },
+    {
+      "id": "johncarter.txt::chunk8",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "d when I should catch up with Powell would get a good laugh for my pains. However, I am not prone to sensitiveness, and the following of a sense of duty, wherever it may lead, has always been a kind of fetich with me throughout my life; which may account for the honors bestowed upon me by three republics and the decorations and friendships of an old and powerful emperor and several lesser kings, in whose service my sword has been red many a time. About nine o’clock the moon was sufficiently bright for me to proceed on my way and I had no difficulty in following the trail at a fast walk, and in some places at a brisk trot until, about midnight, I reached the water hole where Powell had expected to camp. I came upon the spot unexpectedly, finding it entirely deserted, with no signs of having"
+    },
+    {
+      "id": "johncarter.txt::chunk9",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "ed to camp. I came upon the spot unexpectedly, finding it entirely deserted, with no signs of having been recently occupied as a camp. I was interested to note that the tracks of the pursuing horsemen, for such I was now convinced they must be, continued after Powell with only a brief stop at the hole for water; and always at the same rate of speed as his. I was positive now that the trailers were Apaches and that they wished to capture Powell alive for the fiendish pleasure of the torture, so I urged my horse onward at a most dangerous pace, hoping against hope that I would catch up with the red rascals before they attacked him. Further speculation was suddenly cut short by the faint report of two shots far ahead of me. I knew that Powell would need me now if ever, and I instantly urged m"
+    },
+    {
+      "id": "johncarter.txt::chunk10",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": " of two shots far ahead of me. I knew that Powell would need me now if ever, and I instantly urged my horse to his topmost speed up the narrow and difficult mountain trail. I had forged ahead for perhaps a mile or more without hearing further sounds, when the trail suddenly debouched onto a small, open plateau near the summit of the pass. I had passed through a narrow, overhanging gorge just before entering suddenly upon this table land, and the sight which met my eyes filled me with consternation and dismay. The little stretch of level land was white with Indian tepees, and there were probably half a thousand red warriors clustered around some object near the center of the camp. Their attention was so wholly riveted to this point of interest that they did not notice me, and I easily could"
+    },
+    {
+      "id": "johncarter.txt::chunk11",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "tion was so wholly riveted to this point of interest that they did not notice me, and I easily could have turned back into the dark recesses of the gorge and made my escape with perfect safety. The fact, however, that this thought did not occur to me until the following day removes any possible right to a claim to heroism to which the narration of this episode might possibly otherwise entitle me. I do not believe that I am made of the stuff which constitutes heroes, because, in all of the hundreds of instances that my voluntary acts have placed me face to face with death, I cannot recall a single one where any alternative step to that I took occurred to me until many hours later. My mind is evidently so constituted that I am subconsciously forced into the path of duty without recourse to t"
+    },
+    {
+      "id": "johncarter.txt::chunk12",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "evidently so constituted that I am subconsciously forced into the path of duty without recourse to tiresome mental processes. However that may be, I have never regretted that cowardice is not optional with me. In this instance I was, of course, positive that Powell was the center of attraction, but whether I thought or acted first I do not know, but within an instant from the moment the scene broke upon my view I had whipped out my revolvers and was charging down upon the entire army of warriors, shooting rapidly, and whooping at the top of my lungs. Singlehanded, I could not have pursued better tactics, for the red men, convinced by sudden surprise that not less than a regiment of regulars was upon them, turned and fled in every direction for their bows, arrows, and rifles. The view which"
+    },
+    {
+      "id": "johncarter.txt::chunk13",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "was upon them, turned and fled in every direction for their bows, arrows, and rifles. The view which their hurried routing disclosed filled me with apprehension and with rage. Under the clear rays of the Arizona moon lay Powell, his body fairly bristling with the hostile arrows of the braves. That he was already dead I could not but be convinced, and yet I would have saved his body from mutilation at the hands of the Apaches as quickly as I would have saved the man himself from death. Riding close to him I reached down from the saddle, and grasping his cartridge belt drew him up across the withers of my mount. A backward glance convinced me that to return by the way I had come would be more hazardous than to continue across the plateau, so, putting spurs to my poor beast, I made a dash for"
+    },
+    {
+      "id": "johncarter.txt::chunk14",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "hazardous than to continue across the plateau, so, putting spurs to my poor beast, I made a dash for the opening to the pass which I could distinguish on the far side of the table land. The Indians had by this time discovered that I was alone and I was pursued with imprecations, arrows, and rifle balls. The fact that it is difficult to aim anything but imprecations accurately by moonlight, that they were upset by the sudden and unexpected manner of my advent, and that I was a rather rapidly moving target saved me from the various deadly projectiles of the enemy and permitted me to reach the shadows of the surrounding peaks before an orderly pursuit could be organized. My horse was traveling practically unguided as I knew that I had probably less knowledge of the exact location of the trail"
+    },
+    {
+      "id": "johncarter.txt::chunk15",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "practically unguided as I knew that I had probably less knowledge of the exact location of the trail to the pass than he, and thus it happened that he entered a defile which led to the summit of the range and not to the pass which I had hoped would carry me to the valley and to safety. It is probable, however, that to this fact I owe my life and the remarkable experiences and adventures which befell me during the following ten years. My first knowledge that I was on the wrong trail came when I heard the yells of the pursuing savages suddenly grow fainter and fainter far off to my left. I knew then that they had passed to the left of the jagged rock formation at the edge of the plateau, to the right of which my horse had borne me and the body of Powell. I drew rein on a little level promont"
+    },
+    {
+      "id": "johncarter.txt::chunk16",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "e right of which my horse had borne me and the body of Powell. I drew rein on a little level promontory overlooking the trail below and to my left, and saw the party of pursuing savages disappearing around the point of a neighboring peak. I knew the Indians would soon discover that they were on the wrong trail and that the search for me would be renewed in the right direction as soon as they located my tracks. I had gone but a short distance further when what seemed to be an excellent trail opened up around the face of a high cliff. The trail was level and quite broad and led upward and in the general direction I wished to go. The cliff arose for several hundred feet on my right, and on my left was an equal and nearly perpendicular drop to the bottom of a rocky ravine. I had followed this "
+    },
+    {
+      "id": "johncarter.txt::chunk17",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "eft was an equal and nearly perpendicular drop to the bottom of a rocky ravine. I had followed this trail for perhaps a hundred yards when a sharp turn to the right brought me to the mouth of a large cave. The opening was about four feet in height and three to four feet wide, and at this opening the trail ended. It was now morning, and, with the customary lack of dawn which is a startling characteristic of Arizona, it had become daylight almost without warning. Dismounting, I laid Powell upon the ground, but the most painstaking examination failed to reveal the faintest spark of life. I forced water from my canteen between his dead lips, bathed his face and rubbed his hands, working over him continuously for the better part of an hour in the face of the fact that I knew him to be dead. I w"
+    },
+    {
+      "id": "johncarter.txt::chunk18",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": " continuously for the better part of an hour in the face of the fact that I knew him to be dead. I was very fond of Powell; he was thoroughly a man in every respect; a polished southern gentleman; a staunch and true friend; and it was with a feeling of the deepest grief that I finally gave up my crude endeavors at resuscitation. Leaving Powell’s body where it lay on the ledge I crept into the cave to reconnoiter. I found a large chamber, possibly a hundred feet in diameter and thirty or forty feet in height; a smooth and well-worn floor, and many other evidences that the cave had, at some remote period, been inhabited. The back of the cave was so lost in dense shadow that I could not distinguish whether there were openings into other apartments or not. As I was continuing my examination I "
+    },
+    {
+      "id": "johncarter.txt::chunk19",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": "uish whether there were openings into other apartments or not. As I was continuing my examination I commenced to feel a pleasant drowsiness creeping over me which I attributed to the fatigue of my long and strenuous ride, and the reaction from the excitement of the fight and the pursuit. I felt comparatively safe in my present location as I knew that one man could defend the trail to the cave against an army. I soon became so drowsy that I could scarcely resist the strong desire to throw myself on the floor of the cave for a few moments’ rest, but I knew that this would never do, as it would mean certain death at the hands of my red friends, who might be upon me at any moment. With an effort I started toward the opening of the cave only to reel drunkenly against a side wall, and from there"
+    },
+    {
+      "id": "johncarter.txt::chunk20",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\johncarter.txt",
+      "text": " I started toward the opening of the cave only to reel drunkenly against a side wall, and from there slip prone upon the floor."
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk0",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "IN WHICH PHILEAS FOGG AND PASSEPARTOUT ACCEPT EACH OTHER, THE ONE AS MASTER, THE OTHER AS MAN Mr. Phileas Fogg lived, in 1872, at No. 7, Saville Row, Burlington Gardens, the house in which Sheridan died in 1814. He was one of the most noticeable members of the Reform Club, though he seemed always to avoid attracting attention; an enigmatical personage, about whom little was known, except that he was a polished man of the world. People said that he resembled Byron—at least that his head was Byronic; but he was a bearded, tranquil Byron, who might live on a thousand years without growing old. Certainly an Englishman, it was more doubtful whether Phileas Fogg was a Londoner. He was never seen on ’Change, nor at the Bank, nor in the counting-rooms of the “City”; no ships ever came into London "
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk1",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "n ’Change, nor at the Bank, nor in the counting-rooms of the “City”; no ships ever came into London docks of which he was the owner; he had no public employment; he had never been entered at any of the Inns of Court, either at the Temple, or Lincoln’s Inn, or Gray’s Inn; nor had his voice ever resounded in the Court of Chancery, or in the Exchequer, or the Queen’s Bench, or the Ecclesiastical Courts. He certainly was not a manufacturer; nor was he a merchant or a gentleman farmer. His name was strange to the scientific and learned societies, and he never was known to take part in the sage deliberations of the Royal Institution or the London Institution, the Artisan’s Association, or the Institution of Arts and Sciences. He belonged, in fact, to none of the numerous societies which swarm in"
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk2",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "itution of Arts and Sciences. He belonged, in fact, to none of the numerous societies which swarm in the English capital, from the Harmonic to that of the Entomologists, founded mainly for the purpose of abolishing pernicious insects. Phileas Fogg was a member of the Reform, and that was all. The way in which he got admission to this exclusive club was simple enough. He was recommended by the Barings, with whom he had an open credit. His cheques were regularly paid at sight from his account current, which was always flush. Was Phileas Fogg rich? Undoubtedly. But those who knew him best could not imagine how he had made his fortune, and Mr. Fogg was the last person to whom to apply for the information. He was not lavish, nor, on the contrary, avaricious; for, whenever he knew that money was"
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk3",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "formation. He was not lavish, nor, on the contrary, avaricious; for, whenever he knew that money was needed for a noble, useful, or benevolent purpose, he supplied it quietly and sometimes anonymously. He was, in short, the least communicative of men. He talked very little, and seemed all the more mysterious for his taciturn manner. His daily habits were quite open to observation; but whatever he did was so exactly the same thing that he had always done before, that the wits of the curious were fairly puzzled. Had he travelled? It was likely, for no one seemed to know the world more familiarly; there was no spot so secluded that he did not appear to have an intimate acquaintance with it. He often corrected, with a few clear words, the thousand conjectures advanced by members of the club as"
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk4",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "often corrected, with a few clear words, the thousand conjectures advanced by members of the club as to lost and unheard-of travellers, pointing out the true probabilities, and seeming as if gifted with a sort of second sight, so often did events justify his predictions. He must have travelled everywhere, at least in the spirit. It was at least certain that Phileas Fogg had not absented himself from London for many years. Those who were honoured by a better acquaintance with him than the rest, declared that nobody could pretend to have ever seen him anywhere else. His sole pastimes were reading the papers and playing whist. He often won at this game, which, as a silent one, harmonised with his nature; but his winnings never went into his purse, being reserved as a fund for his charities. M"
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk5",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "is nature; but his winnings never went into his purse, being reserved as a fund for his charities. Mr. Fogg played, not to win, but for the sake of playing. The game was in his eyes a contest, a struggle with a difficulty, yet a motionless, unwearying struggle, congenial to his tastes. Phileas Fogg was not known to have either wife or children, which may happen to the most honest people; either relatives or near friends, which is certainly more unusual. He lived alone in his house in Saville Row, whither none penetrated. A single domestic sufficed to serve him. He breakfasted and dined at the club, at hours mathematically fixed, in the same room, at the same table, never taking his meals with other members, much less bringing a guest with him; and went home at exactly midnight, only to ret"
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk6",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "h other members, much less bringing a guest with him; and went home at exactly midnight, only to retire at once to bed. He never used the cosy chambers which the Reform provides for its favoured members. He passed ten hours out of the twenty-four in Saville Row, either in sleeping or making his toilet. When he chose to take a walk it was with a regular step in the entrance hall with its mosaic flooring, or in the circular gallery with its dome supported by twenty red porphyry Ionic columns, and illumined by blue painted windows. When he breakfasted or dined all the resources of the club—its kitchens and pantries, its buttery and dairy—aided to crowd his table with their most succulent stores; he was served by the gravest waiters, in dress coats, and shoes with swan-skin soles, who proffere"
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk7",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "; he was served by the gravest waiters, in dress coats, and shoes with swan-skin soles, who proffered the viands in special porcelain, and on the finest linen; club decanters, of a lost mould, contained his sherry, his port, and his cinnamon-spiced claret; while his beverages were refreshingly cooled with ice, brought at great cost from the American lakes. If to live in this style is to be eccentric, it must be confessed that there is something good in eccentricity. The mansion in Saville Row, though not sumptuous, was exceedingly comfortable. The habits of its occupant were such as to demand but little from the sole domestic, but Phileas Fogg required him to be almost superhumanly prompt and regular. On this very 2nd of October he had dismissed James Forster, because that luckless youth h"
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk8",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "d regular. On this very 2nd of October he had dismissed James Forster, because that luckless youth had brought him shaving-water at eighty-four degrees Fahrenheit instead of eighty-six; and he was awaiting his successor, who was due at the house between eleven and half-past. Phileas Fogg was seated squarely in his armchair, his feet close together like those of a grenadier on parade, his hands resting on his knees, his body straight, his head erect; he was steadily watching a complicated clock which indicated the hours, the minutes, the seconds, the days, the months, and the years. At exactly half-past eleven Mr. Fogg would, according to his daily habit, quit Saville Row, and repair to the Reform. A rap at this moment sounded on the door of the cosy apartment where Phileas Fogg was seated,"
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk9",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "eform. A rap at this moment sounded on the door of the cosy apartment where Phileas Fogg was seated, and James Forster, the dismissed servant, appeared. “The new servant,” said he. A young man of thirty advanced and bowed. “You are a Frenchman, I believe,” asked Phileas Fogg, “and your name is John?” “Jean, if monsieur pleases,” replied the newcomer, “Jean Passepartout, a surname which has clung to me because I have a natural aptness for going out of one business into another. I believe I’m honest, monsieur, but, to be outspoken, I’ve had several trades. I’ve been an itinerant singer, a circus-rider, when I used to vault like Leotard, and dance on a rope like Blondin. Then I got to be a professor of gymnastics, so as to make better use of my talents; and then I was a sergeant fireman at Pa"
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk10",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "essor of gymnastics, so as to make better use of my talents; and then I was a sergeant fireman at Paris, and assisted at many a big fire. But I quitted France five years ago, and, wishing to taste the sweets of domestic life, took service as a valet here in England. Finding myself out of place, and hearing that Monsieur Phileas Fogg was the most exact and settled gentleman in the United Kingdom, I have come to monsieur in the hope of living with him a tranquil life, and forgetting even the name of Passepartout.” “Passepartout suits me,” responded Mr. Fogg. “You are well recommended to me; I hear a good report of you. You know my conditions?” “Yes, monsieur.” “Good! What time is it?” “Twenty-two minutes after eleven,” returned Passepartout, drawing an enormous silver watch from the depths o"
+    },
+    {
+      "id": "jorden-rundt-i-80-dage.txt::chunk11",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\jorden-rundt-i-80-dage.txt",
+      "text": "two minutes after eleven,” returned Passepartout, drawing an enormous silver watch from the depths of his pocket. “You are too slow,” said Mr. Fogg. “Pardon me, monsieur, it is impossible—” “You are four minutes too slow. No matter; it’s enough to mention the error. Now from this moment, twenty-nine minutes after eleven, a.m., this Wednesday, 2nd October, you are in my service.” Phileas Fogg got up, took his hat in his left hand, put it on his head with an automatic motion, and went off without a word. Passepartout heard the street door shut once; it was his new master going out. He heard it shut again; it was his predecessor, James Forster, departing in his turn. Passepartout remained alone in the house in Saville Row."
+    },
+    {
+      "id": "kalender.txt::chunk0",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "CHAPTER I. DEFINITIONS. _a_--A Calendar is a method of distributing time into certain periods adapted to the purposes of civil life, as hours, days, weeks, months, years, etc. _b_--The only natural divisions of time are the solar day, the solar year, and the lunar month. _c_--An hour is one of the subdivisions of the day into twenty-four equal parts. _d_--The true solar day is the interval of time which elapses between two consecutive returns of the same terrestrial meridian to the Sun, the mean length of which is twenty-four hours. _e_--The week is a period of seven days, having no reference whatever to the celestial motions, a circumstance to which it owes its unalterable uniformity. _f_--The lunar month is the time which elapses between two consecutive new or full moons, and was used in"
+    },
+    {
+      "id": "kalender.txt::chunk1",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "The lunar month is the time which elapses between two consecutive new or full moons, and was used in the Roman calendar until the time of Julius Caesar, and consists of 29d, 12h, 44m, 2.87s. _g_--The calendar month is usually employed to denote an arbitrary number of days approaching a twelfth part of a year, and has now its place in the calendar of nearly all nations. _h_--The year is either astronomical or civil. The solar astronomical year is the period of time in which the Earth performs a revolution in its orbit about the sun or passes from any point of the ecliptic to the same point again, and consists of 365 days, 5 hours, 48 minutes and 49.62 seconds of mean solar time. Appendix A. _i_--The civil year is that which is employed in chronology, and varies among different nations, both"
+    },
+    {
+      "id": "kalender.txt::chunk2",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "i_--The civil year is that which is employed in chronology, and varies among different nations, both in respect of the seasons at which it commences and of its subdivisions. CHAPTER II. HISTORY OF THE DIVISIONS OF TIME AND THE OLD ROMAN CALENDAR. _Day_--The subdivision of the day into twenty-four parts or hours has prevailed since the remotest ages, though different nations have not agreed either with respect to the epoch of its commencement or the manner of distributing the hours. Europeans in general, like the ancient Egyptians, place the commencement of the civil day at midnight; and reckon twelve morning hours from midnight to midday and twelve evening hours from midday to midnight. Astronomers, after the example of Ptolemy, regarded the day as commencing with the Sun's culmination, or"
+    },
+    {
+      "id": "kalender.txt::chunk3",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "onomers, after the example of Ptolemy, regarded the day as commencing with the Sun's culmination, or noon, and find it most convenient for the purpose of computation to reckon through the whole twenty-four hours. Hipparchus reckoned the twenty-four hours from midnight to midnight. The Roman day, from sunrise to sunset, and the night, from sunset to sunrise, were each divided at all seasons of the year into twelve hours, the hour being uniformly one-twelfth of the day or the night, of course, varied in length with the length of the day or night at different seasons of the year. _Week_--Although the week did not enter into the calendar of the Greeks, and was not introduced at Rome till after the reign of Theodosius, A. D. 292, it has been employed from time immemorial in almost all Eastern c"
+    },
+    {
+      "id": "kalender.txt::chunk4",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "he reign of Theodosius, A. D. 292, it has been employed from time immemorial in almost all Eastern countries; and as it forms neither an aliquot part of a year nor of the lunar months, those who reject the Mosaic recital will be at a loss to assign to it an origin having much semblance of probability. In the Egyptian astronomy the order of the planets, beginning with the most remote, is Saturn, Jupiter, Mars, the Sun, Venus, Mercury, the Moon. Now, the day being divided into twenty-four hours, each hour was consecrated to a particular planet, namely: One to Saturn, the following to Jupiter, third to Mars, and so on according to the above order; and the day received the name of the planet which presided over its first hour. If, then, the first hour of a day was consecrated to Saturn, that p"
+    },
+    {
+      "id": "kalender.txt::chunk5",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "ch presided over its first hour. If, then, the first hour of a day was consecrated to Saturn, that planet would also have the 8th, the 5th and the 22d hours; the 23d would fall to Jupiter, the 24th to Mars, and the 25th or the first hour of the second day would belong to the Sun. In like manner the first hour of the third day would fall to the Moon, the first hour of the fourth to Mars, of the fifth to Mercury, of the sixth to Jupiter and the seventh to Venus. The cycle being completed, the first hour of the eighth day would again return to Saturn and all the others succeed in the same order. See table on the 17th page. It will be seen by the table, and it is also recorded by Dio Cassius, of the second Century, that the Egyptian week commenced with Saturday. On their flight from Egypt the "
+    },
+    {
+      "id": "kalender.txt::chunk6",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": " the second Century, that the Egyptian week commenced with Saturday. On their flight from Egypt the Jews, from hatred to their ancient oppressors, made Saturday the last day of the week. It is stated that the ancient Saxons borrowed the week from some Eastern nation, and substituted the names of their own divinities for those of the gods of Greece. The names of the days are here given in Latin, Saxon and English. It will be seen that the English names of the days are derived from the Saxon. LATIN. SAXON. ENGLISH. _Dies Solis._ Sun's Day. SUNDAY. _Dies Lunae._ Moon's Day. MONDAY. _Dies Martis._ Tiw's Day. TUESDAY. _Dies Mercurii._ Woden's Day. WEDNESDAY. _Dies Jovis._ Thor's Day. THURSDAY. _Dies Veneris._ Friga's Day. FRIDAY. _Dies Saturni._ Seterne's Day. SATURDAY. _Month_--The ancient Rom"
+    },
+    {
+      "id": "kalender.txt::chunk7",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "ies Veneris._ Friga's Day. FRIDAY. _Dies Saturni._ Seterne's Day. SATURDAY. _Month_--The ancient Roman year contained but ten months and is indicated by the names of the last four. September from Septem, seven; October from Octo, eight; November from Novem, nine, and December from Decem, ten; July and August were also denominated Quintilis and Sextilis, from Quintus five, and Sex, six. Quintilis was changed to July in honor of Julius Caesar, who was born on the 12th of that month 98 B. C. Sextilis was changed to August by the Roman Senate to flatter Augustus on his victories about 8 B. C. In the reign of Numa Pompilius, about 700 B. C., two months were added to the year, January at the beginning, and February at the end of the year. This arrangement continued till 450 B. C., when the Decem"
+    },
+    {
+      "id": "kalender.txt::chunk8",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "ning, and February at the end of the year. This arrangement continued till 450 B. C., when the Decemvirs (ten magistrates) changed the order, placing February after January, making March the third instead of the first month of the Roman year. _Year_--If the civil year correspond with the solar the seasons of the year will always come at the same period. But if the civil year is supposed to be too long (as is the case in the Julian year) the seasons will go back proportionately; but if too short they will advance in the same proportion. Now, as the ancient Egyptians reckoned thirty days to the month invariably, and to complete the year, added five days, called supplementary days, their year consisted of 365 days. They made use of no intercalation, and by losing one-fourth of a day every yea"
+    },
+    {
+      "id": "kalender.txt::chunk9",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "onsisted of 365 days. They made use of no intercalation, and by losing one-fourth of a day every year, the commencement of the year went back one day in every period of four years, and consequently made a revolution of the seasons in 1460 years. Hence the Egyptian year was called a vague or erratic year because the first day of the year in the course of 1460 years wandered, as it were, over all the seasons. Therefore 1460 Julian years of 365-1/4 days each are equal to 1461 Egyptian years of 365 days each. The ancient Roman year consisted of twelve lunar months, of twenty-nine and thirty days alternately, which equals 354 days; but a day was added to make the number odd, which was considered more fortunate, so that the year consisted of 355 days. This differed from the solar year by ten who"
+    },
+    {
+      "id": "kalender.txt::chunk10",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "more fortunate, so that the year consisted of 355 days. This differed from the solar year by ten whole days and a fraction; but to restore the coincidence, Numa ordered an additional or intercalary month to be inserted every second year between the 23d and 24th of February, consisting of twenty-two and twenty-three days alternately, so that four years contained 1465 days, and the mean length of the year was consequently 366-1/4 days, so that the year was then too long by one day. As the error amounted to twenty-four days in as many years, it was ordered that every third period of eight years, instead of containing four intercalary months, two of twenty-two and two of twenty-three days, amounting in all to ninety days, should contain only three of those months of twenty-two days each, amoun"
+    },
+    {
+      "id": "kalender.txt::chunk11",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "ting in all to ninety days, should contain only three of those months of twenty-two days each, amounting to sixty-six days, thereby suppressing twenty-four days in as many years, reducing the mean length of the year to 365-1/4 days. Had the intercalations been regularly made the concurrence of the solar and the civil year would have been preserved very nearly. But its regulation was left to the pontiffs, who, to prolong the term of a magistracy or hasten an annual election, would give to the intercalary month a greater or less number of days, and consequently the calendar was thrown into confusion, so that in the time of Julius Caesar there was a discrepancy between the solar and the civil year of about three months; the winter months being carried back into autumn and the autumnal into su"
+    },
+    {
+      "id": "kalender.txt::chunk12",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "ear of about three months; the winter months being carried back into autumn and the autumnal into summer. A table of the order and the names of the planets in the Egyptian astronomy illustrating the origin of the names of the days of the week: ---------+---------+--------+-------+-------+----------+------- Saturn, |Jupiter, |Mars, |Sun, |Venus, |Mercury, |Moon, Saturday.|Thursday.|Tuesday.|Sunday.|Friday.|Wednesday.|Monday. ---------+---------+--------+-------+-------+----------+------- 1 | 2 | 3 | 4 | 5 | 6 | 7 8 | 9 | 10 | 11 | 12 | 13 | 14 15 | 16 | 17 | 18 | 19 | 20 | 21 22 | 23 | 24 | 1 | 2 | 3 | 4 5 | 6 | 7 | 8 | 9 | 10 | 11 12 | 13 | 14 | 15 | 16 | 17 | 18 19 | 20 | 21 | 22 | 23 | 24 | 1 2 | 3 | 4 | 5 | 6 | 7 | 8 9 | 10 | 11 | 12 | 13 | 14 | 15 16 | 17 | 18 | 19 | 20 | 21 | 22 23 | "
+    },
+    {
+      "id": "kalender.txt::chunk13",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "| 1 2 | 3 | 4 | 5 | 6 | 7 | 8 9 | 10 | 11 | 12 | 13 | 14 | 15 16 | 17 | 18 | 19 | 20 | 21 | 22 23 | 24 | 1 | 2 | 3 | 4 | 5 6 | 7 | 8 | 9 | 10 | 11 | 12 13 | 14 | 15 | 16 | 17 | 18 | 19 20 | 21 | 22 | 23 | 24 | 1 | 2 3 | 4 | 5 | 6 | 7 | 8 | 9 10 | 11 | 12 | 13 | 14 | 15 | 16 17 | 18 | 19 | 20 | 21 | 22 | 23 24 | 1 | 2 | 3 | 4 | 5 | 6 7 | 8 | 9 | 10 | 11 | 12 | 13 14 | 15 | 16 | 17 | 18 | 19 | 20 21 | 22 | 23 | 24 | 1 | 2 | 3 4 | 5 | 6 | 7 | 8 | 9 | 10 11 | 12 | 13 | 14 | 15 | 16 | 17 18 | 19 | 20 | 21 | 22 | 23 | 24 ---------+---------+--------+-------+-------+----------+------- CHAPTER III. HISTORY OF THE REFORMATION OF THE CALENDAR BY JULIUS CAESAR. In order to put an end to the disorders arising from the negligence or ignorance of the pontiffs, Julius Caesar, 46 B. C., abolished the use "
+    },
+    {
+      "id": "kalender.txt::chunk14",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "rising from the negligence or ignorance of the pontiffs, Julius Caesar, 46 B. C., abolished the use of the lunar year and the intercalary month, and regulated the civil year entirely by the Sun. With the advice and assistance of the astronomers, especially Sosigenes of Alexandria, he fixed the mean length of the year at 365-1/4 days, and decided that there should be three consecutive years of 365 days, and a fourth of 366. In order to restore the vernal equinox to the 24th of March, the place it occupied in the time of Numa, two months, together consisting of 67 days, were inserted between the last day of November and the first day of December of that year. An intercalary month of 23 days had already been added to February of the same year according to the old method, so that the first Jul"
+    },
+    {
+      "id": "kalender.txt::chunk15",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "d already been added to February of the same year according to the old method, so that the first Julian year commenced with the first day of January, 45 years before Christ, and 709 from the foundation of Rome, making the year A. U. C. 708 to consist of the prodigious number of 445 days, (i. e. 355 + 23 + 67 = 445). Hence it was called by some the year of confusion; Macrobius said it should be named the last year of confusion. There was also adopted at the same time a more commodious arrangement in the distribution of the days throughout the several months. It was decided to give to January, March, May, July, September and November each thirty-one days; and the other months thirty, excepting February, which in common years should have but twenty-nine days, but every fourth year thirty; so "
+    },
+    {
+      "id": "kalender.txt::chunk16",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": " February, which in common years should have but twenty-nine days, but every fourth year thirty; so that the average length of the Julian year was 365-1/4 days. Augustus Caesar interrupted this order by taking one day from February, reducing it to twenty-eight and giving it to August, that the month bearing his name should have as many days as July, which was named in honor of his great-uncle, Julius. In order that three months of thirty-one days might not come together, September and November were reduced to thirty days, and thirty-one given to October and December. In the Julian calendar a day was added to February every fourth year, it being the shortest month, which was called the additional or intercalary day, and was inserted in the calendar between the 23d and 24th of that month. In"
+    },
+    {
+      "id": "kalender.txt::chunk17",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\kalender.txt",
+      "text": "onal or intercalary day, and was inserted in the calendar between the 23d and 24th of that month. In the ancient Roman calendar the first day of every month was invariably called the calends. The 24th of February then was the 6th of the calends of March--Sexto calendas; the preceding, which was the additional or intercalary day, was called bis-sexto calendas (from _bis_, twice, and _sextus_, six), twice the sixth day. Hence the term bis-sextile as applied to every fourth year, commonly called leap-year. Appendix B."
+    },
+    {
+      "id": "moby-dick.txt::chunk0",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people’s hats off—then, I account it high time to get to sea as soon as I can. This"
+    },
+    {
+      "id": "moby-dick.txt::chunk1",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": "dically knocking people’s hats off—then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me. There now is your insular city of the Manhattoes, belted round by wharves as Indian isles by coral reefs—commerce surrounds it with her surf. Right and left, the streets take you waterward. Its extreme downtown is the battery, where that noble mole is washed by waves, and cooled by breezes, which a few hours previous were out of sight of land. Look at the crowds of water-gazers there. Circ"
+    },
+    {
+      "id": "moby-dick.txt::chunk2",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": "which a few hours previous were out of sight of land. Look at the crowds of water-gazers there. Circumambulate the city of a dreamy Sabbath afternoon. Go from Corlears Hook to Coenties Slip, and from thence, by Whitehall, northward. What do you see?—Posted like silent sentinels all around the town, stand thousands upon thousands of mortal men fixed in ocean reveries. Some leaning against the spiles; some seated upon the pier-heads; some looking over the bulwarks of ships from China; some high aloft in the rigging, as if striving to get a still better seaward peep. But these are all landsmen; of week days pent up in lath and plaster—tied to counters, nailed to benches, clinched to desks. How then is this? Are the green fields gone? What do they here? But look! here come more crowds, pacing "
+    },
+    {
+      "id": "moby-dick.txt::chunk3",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": "then is this? Are the green fields gone? What do they here? But look! here come more crowds, pacing straight for the water, and seemingly bound for a dive. Strange! Nothing will content them but the extremest limit of the land; loitering under the shady lee of yonder warehouses will not suffice. No. They must get just as nigh the water as they possibly can without falling in. And there they stand—miles of them—leagues. Inlanders all, they come from lanes and alleys, streets and avenues—north, east, south, and west. Yet here they all unite. Tell me, does the magnetic virtue of the needles of the compasses of all those ships attract them thither? Once more. Say you are in the country; in some high land of lakes. Take almost any path you please, and ten to one it carries you down in a dale, a"
+    },
+    {
+      "id": "moby-dick.txt::chunk4",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": "high land of lakes. Take almost any path you please, and ten to one it carries you down in a dale, and leaves you there by a pool in the stream. There is magic in it. Let the most absent-minded of men be plunged in his deepest reveries—stand that man on his legs, set his feet a-going, and he will infallibly lead you to water, if water there be in all that region. Should you ever be athirst in the great American desert, try this experiment, if your caravan happen to be supplied with a metaphysical professor. Yes, as every one knows, meditation and water are wedded for ever. But here is an artist. He desires to paint you the dreamiest, shadiest, quietest, most enchanting bit of romantic landscape in all the valley of the Saco. What is the chief element he employs? There stand his trees, each"
+    },
+    {
+      "id": "moby-dick.txt::chunk5",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": "ape in all the valley of the Saco. What is the chief element he employs? There stand his trees, each with a hollow trunk, as if a hermit and a crucifix were within; and here sleeps his meadow, and there sleep his cattle; and up from yonder cottage goes a sleepy smoke. Deep into distant woodlands winds a mazy way, reaching to overlapping spurs of mountains bathed in their hill-side blue. But though the picture lies thus tranced, and though this pine-tree shakes down its sighs like leaves upon this shepherd’s head, yet all were vain, unless the shepherd’s eye were fixed upon the magic stream before him. Go visit the Prairies in June, when for scores on scores of miles you wade knee-deep among Tiger-lilies—what is the one charm wanting?—Water—there is not a drop of water there! Were Niagara b"
+    },
+    {
+      "id": "moby-dick.txt::chunk6",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": "Tiger-lilies—what is the one charm wanting?—Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it? Why did the poor poet of Tennessee, upon suddenly receiving two handfuls of silver, deliberate whether to buy him a coat, which he sadly needed, or invest his money in a pedestrian trip to Rockaway Beach? Why is almost every robust healthy boy with a robust healthy soul in him, at some time or other crazy to go to sea? Why upon your first voyage as a passenger, did you yourself feel such a mystical vibration, when first told that you and your ship were now out of sight of land? Why did the old Persians hold the sea holy? Why did the Greeks give it a separate deity, and own brother of Jove? Surely all this is not without m"
+    },
+    {
+      "id": "moby-dick.txt::chunk7",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": "y did the Greeks give it a separate deity, and own brother of Jove? Surely all this is not without meaning. And still deeper the meaning of that story of Narcissus, who because he could not grasp the tormenting, mild image he saw in the fountain, plunged into it and was drowned. But that same image, we ourselves see in all rivers and oceans. It is the image of the ungraspable phantom of life; and this is the key to it all. Now, when I say that I am in the habit of going to sea whenever I begin to grow hazy about the eyes, and begin to be over conscious of my lungs, I do not mean to have it inferred that I ever go to sea as a passenger. For to go as a passenger you must needs have a purse, and a purse is but a rag unless you have something in it. Besides, passengers get sea-sick—grow quarre"
+    },
+    {
+      "id": "moby-dick.txt::chunk8",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": "d a purse is but a rag unless you have something in it. Besides, passengers get sea-sick—grow quarrelsome—don’t sleep of nights—do not enjoy themselves much, as a general thing;—no, I never go as a passenger; nor, though I am something of a salt, do I ever go to sea as a Commodore, or a Captain, or a Cook. I abandon the glory and distinction of such offices to those who like them. For my part, I abominate all honorable respectable toils, trials, and tribulations of every kind whatsoever. It is quite as much as I can do to take care of myself, without taking care of ships, barques, brigs, schooners, and what not. And as for going as cook,—though I confess there is considerable glory in that, a cook being a sort of officer on ship-board—yet, somehow, I never fancied broiling fowls;—though on"
+    },
+    {
+      "id": "moby-dick.txt::chunk9",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": "a cook being a sort of officer on ship-board—yet, somehow, I never fancied broiling fowls;—though once broiled, judiciously buttered, and judgmatically salted and peppered, there is no one who will speak more respectfully, not to say reverentially, of a broiled fowl than I will. It is out of the idolatrous dotings of the old Egyptians upon broiled ibis and roasted river horse, that you see the mummies of those creatures in their huge bake-houses the pyramids. No, when I go to sea, I go as a simple sailor, right before the mast, plumb down into the forecastle, aloft there to the royal mast-head. True, they rather order me about some, and make me jump from spar to spar, like a grasshopper in a May meadow. And at first, this sort of thing is unpleasant enough. It touches one’s sense of honor,"
+    },
+    {
+      "id": "moby-dick.txt::chunk10",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": " May meadow. And at first, this sort of thing is unpleasant enough. It touches one’s sense of honor, particularly if you come of an old established family in the land, the Van Rensselaers, or Randolphs, or Hardicanutes. And more than all, if just previous to putting your hand into the tar-pot, you have been lording it as a country schoolmaster, making the tallest boys stand in awe of you. The transition is a keen one, I assure you, from a schoolmaster to a sailor, and requires a strong decoction of Seneca and the Stoics to enable you to grin and bear it. But even this wears off in time. What of it, if some old hunks of a sea-captain orders me to get a broom and sweep down the decks? What does that indignity amount to, weighed, I mean, in the scales of the New Testament? Do you think the ar"
+    },
+    {
+      "id": "moby-dick.txt::chunk11",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": "s that indignity amount to, weighed, I mean, in the scales of the New Testament? Do you think the archangel Gabriel thinks anything the less of me, because I promptly and respectfully obey that old hunks in that particular instance? Who ain’t a slave? Tell me that. Well, then, however the old sea-captains may order me about—however they may thump and punch me about, I have the satisfaction of knowing that it is all right; that everybody else is one way or other served in much the same way—either in a physical or metaphysical point of view, that is; and so the universal thump is passed round, and all hands should rub each other’s shoulder-blades, and be content. Again, I always go to sea as a sailor, because they make a point of paying me for my trouble, whereas they never pay passengers a "
+    },
+    {
+      "id": "moby-dick.txt::chunk12",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\moby-dick.txt",
+      "text": " sailor, because they make a point of paying me for my trouble, whereas they never pay passengers a single penny that I ever heard of. On the contrary, passengers themselves must pay. And there is all the difference in the world between paying and being paid. The act of paying is perhaps the most uncomfortable infliction that the two orchard thieves entailed upon us. But _being paid_,—what will compare with it? The urbane activity with which a man receives money is really marvellous, considering that we so earnestly believe money to be the root of all earthly ills, and that on no account can a monied man enter heaven. Ah! how cheerfully we consign ourselves to perdition!"
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk0",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": "ACT I SCENE I. Athens. A room in the Palace of Theseus Enter Theseus, Hippolyta, Philostrate and Attendants. THESEUS. Now, fair Hippolyta, our nuptial hour Draws on apace; four happy days bring in Another moon; but oh, methinks, how slow This old moon wanes! She lingers my desires, Like to a step-dame or a dowager, Long withering out a young man’s revenue. HIPPOLYTA. Four days will quickly steep themselves in night; Four nights will quickly dream away the time; And then the moon, like to a silver bow New bent in heaven, shall behold the night Of our solemnities. THESEUS. Go, Philostrate, Stir up the Athenian youth to merriments; Awake the pert and nimble spirit of mirth; Turn melancholy forth to funerals; The pale companion is not for our pomp. [_Exit Philostrate._] Hippolyta, I woo’d thee"
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk1",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": "h to funerals; The pale companion is not for our pomp. [_Exit Philostrate._] Hippolyta, I woo’d thee with my sword, And won thy love doing thee injuries; But I will wed thee in another key, With pomp, with triumph, and with revelling. Enter Egeus, Hermia, Lysander and Demetrius. EGEUS. Happy be Theseus, our renownèd Duke! THESEUS. Thanks, good Egeus. What’s the news with thee? EGEUS. Full of vexation come I, with complaint Against my child, my daughter Hermia. Stand forth, Demetrius. My noble lord, This man hath my consent to marry her. Stand forth, Lysander. And, my gracious Duke, This man hath bewitch’d the bosom of my child. Thou, thou, Lysander, thou hast given her rhymes, And interchang’d love-tokens with my child. Thou hast by moonlight at her window sung, With feigning voice, verses"
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk2",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": "’d love-tokens with my child. Thou hast by moonlight at her window sung, With feigning voice, verses of feigning love; And stol’n the impression of her fantasy With bracelets of thy hair, rings, gauds, conceits, Knacks, trifles, nosegays, sweetmeats (messengers Of strong prevailment in unharden’d youth) With cunning hast thou filch’d my daughter’s heart, Turn’d her obedience (which is due to me) To stubborn harshness. And, my gracious Duke, Be it so she will not here before your grace Consent to marry with Demetrius, I beg the ancient privilege of Athens: As she is mine I may dispose of her; Which shall be either to this gentleman Or to her death, according to our law Immediately provided in that case. THESEUS. What say you, Hermia? Be advis’d, fair maid. To you your father should be as a "
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk3",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": " that case. THESEUS. What say you, Hermia? Be advis’d, fair maid. To you your father should be as a god; One that compos’d your beauties, yea, and one To whom you are but as a form in wax By him imprinted, and within his power To leave the figure, or disfigure it. Demetrius is a worthy gentleman. HERMIA. So is Lysander. THESEUS. In himself he is. But in this kind, wanting your father’s voice, The other must be held the worthier. HERMIA. I would my father look’d but with my eyes. THESEUS. Rather your eyes must with his judgment look. HERMIA. I do entreat your Grace to pardon me. I know not by what power I am made bold, Nor how it may concern my modesty In such a presence here to plead my thoughts: But I beseech your Grace that I may know The worst that may befall me in this case, If I refus"
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk4",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": "ghts: But I beseech your Grace that I may know The worst that may befall me in this case, If I refuse to wed Demetrius. THESEUS. Either to die the death, or to abjure For ever the society of men. Therefore, fair Hermia, question your desires, Know of your youth, examine well your blood, Whether, if you yield not to your father’s choice, You can endure the livery of a nun, For aye to be in shady cloister mew’d, To live a barren sister all your life, Chanting faint hymns to the cold fruitless moon. Thrice-blessèd they that master so their blood To undergo such maiden pilgrimage, But earthlier happy is the rose distill’d Than that which, withering on the virgin thorn, Grows, lives, and dies, in single blessedness. HERMIA. So will I grow, so live, so die, my lord, Ere I will yield my virgin pa"
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk5",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": " single blessedness. HERMIA. So will I grow, so live, so die, my lord, Ere I will yield my virgin patent up Unto his lordship, whose unwishèd yoke My soul consents not to give sovereignty. THESEUS. Take time to pause; and by the next new moon The sealing-day betwixt my love and me For everlasting bond of fellowship, Upon that day either prepare to die For disobedience to your father’s will, Or else to wed Demetrius, as he would, Or on Diana’s altar to protest For aye austerity and single life. DEMETRIUS. Relent, sweet Hermia; and, Lysander, yield Thy crazèd title to my certain right. LYSANDER. You have her father’s love, Demetrius. Let me have Hermia’s. Do you marry him. EGEUS. Scornful Lysander, true, he hath my love; And what is mine my love shall render him; And she is mine, and all my "
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk6",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": "nder, true, he hath my love; And what is mine my love shall render him; And she is mine, and all my right of her I do estate unto Demetrius. LYSANDER. I am, my lord, as well deriv’d as he, As well possess’d; my love is more than his; My fortunes every way as fairly rank’d, If not with vantage, as Demetrius’; And, which is more than all these boasts can be, I am belov’d of beauteous Hermia. Why should not I then prosecute my right? Demetrius, I’ll avouch it to his head, Made love to Nedar’s daughter, Helena, And won her soul; and she, sweet lady, dotes, Devoutly dotes, dotes in idolatry, Upon this spotted and inconstant man. THESEUS. I must confess that I have heard so much, And with Demetrius thought to have spoke thereof; But, being over-full of self-affairs, My mind did lose it.—But, Dem"
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk7",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": "s thought to have spoke thereof; But, being over-full of self-affairs, My mind did lose it.—But, Demetrius, come, And come, Egeus; you shall go with me. I have some private schooling for you both.— For you, fair Hermia, look you arm yourself To fit your fancies to your father’s will, Or else the law of Athens yields you up (Which by no means we may extenuate) To death, or to a vow of single life. Come, my Hippolyta. What cheer, my love? Demetrius and Egeus, go along; I must employ you in some business Against our nuptial, and confer with you Of something nearly that concerns yourselves. EGEUS. With duty and desire we follow you. [_Exeunt all but Lysander and Hermia._] LYSANDER. How now, my love? Why is your cheek so pale? How chance the roses there do fade so fast? HERMIA. Belike for want "
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk8",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": "ove? Why is your cheek so pale? How chance the roses there do fade so fast? HERMIA. Belike for want of rain, which I could well Beteem them from the tempest of my eyes. LYSANDER. Ay me! For aught that I could ever read, Could ever hear by tale or history, The course of true love never did run smooth. But either it was different in blood— HERMIA. O cross! Too high to be enthrall’d to low. LYSANDER. Or else misgraffèd in respect of years— HERMIA. O spite! Too old to be engag’d to young. LYSANDER. Or else it stood upon the choice of friends— HERMIA. O hell! to choose love by another’s eyes! LYSANDER. Or, if there were a sympathy in choice, War, death, or sickness did lay siege to it, Making it momentany as a sound, Swift as a shadow, short as any dream, Brief as the lightning in the collied n"
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk9",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": "momentany as a sound, Swift as a shadow, short as any dream, Brief as the lightning in the collied night That, in a spleen, unfolds both heaven and earth, And, ere a man hath power to say, ‘Behold!’ The jaws of darkness do devour it up: So quick bright things come to confusion. HERMIA. If then true lovers have ever cross’d, It stands as an edict in destiny. Then let us teach our trial patience, Because it is a customary cross, As due to love as thoughts and dreams and sighs, Wishes and tears, poor fancy’s followers. LYSANDER. A good persuasion; therefore, hear me, Hermia. I have a widow aunt, a dowager Of great revenue, and she hath no child. From Athens is her house remote seven leagues, And she respects me as her only son. There, gentle Hermia, may I marry thee, And to that place the sha"
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk10",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": "d she respects me as her only son. There, gentle Hermia, may I marry thee, And to that place the sharp Athenian law Cannot pursue us. If thou lovest me then, Steal forth thy father’s house tomorrow night; And in the wood, a league without the town (Where I did meet thee once with Helena To do observance to a morn of May), There will I stay for thee. HERMIA. My good Lysander! I swear to thee by Cupid’s strongest bow, By his best arrow with the golden head, By the simplicity of Venus’ doves, By that which knitteth souls and prospers loves, And by that fire which burn’d the Carthage queen When the false Trojan under sail was seen, By all the vows that ever men have broke (In number more than ever women spoke), In that same place thou hast appointed me, Tomorrow truly will I meet with thee. LY"
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk11",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": "er women spoke), In that same place thou hast appointed me, Tomorrow truly will I meet with thee. LYSANDER. Keep promise, love. Look, here comes Helena. Enter Helena. HERMIA. God speed fair Helena! Whither away? HELENA. Call you me fair? That fair again unsay. Demetrius loves your fair. O happy fair! Your eyes are lode-stars and your tongue’s sweet air More tuneable than lark to shepherd’s ear, When wheat is green, when hawthorn buds appear. Sickness is catching. O were favour so, Yours would I catch, fair Hermia, ere I go. My ear should catch your voice, my eye your eye, My tongue should catch your tongue’s sweet melody. Were the world mine, Demetrius being bated, The rest I’d give to be to you translated. O, teach me how you look, and with what art You sway the motion of Demetrius’ heart"
+    },
+    {
+      "id": "skaersommernatsdrom.txt::chunk12",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\skaersommernatsdrom.txt",
+      "text": " you translated. O, teach me how you look, and with what art You sway the motion of Demetrius’ heart!"
+    },
+    {
+      "id": "ulvehunden.txt::chunk0",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "THE TRAIL OF THE MEAT Dark spruce forest frowned on either side the frozen waterway. The trees had been stripped by a recent wind of their white covering of frost, and they seemed to lean towards each other, black and ominous, in the fading light. A vast silence reigned over the land. The land itself was a desolation, lifeless, without movement, so lone and cold that the spirit of it was not even that of sadness. There was a hint in it of laughter, but of a laughter more terrible than any sadness—a laughter that was mirthless as the smile of the sphinx, a laughter cold as the frost and partaking of the grimness of infallibility. It was the masterful and incommunicable wisdom of eternity laughing at the futility of life and the effort of life. It was the Wild, the savage, frozen-hearted Nor"
+    },
+    {
+      "id": "ulvehunden.txt::chunk1",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "hing at the futility of life and the effort of life. It was the Wild, the savage, frozen-hearted Northland Wild. But there _was_ life, abroad in the land and defiant. Down the frozen waterway toiled a string of wolfish dogs. Their bristly fur was rimed with frost. Their breath froze in the air as it left their mouths, spouting forth in spumes of vapour that settled upon the hair of their bodies and formed into crystals of frost. Leather harness was on the dogs, and leather traces attached them to a sled which dragged along behind. The sled was without runners. It was made of stout birch-bark, and its full surface rested on the snow. The front end of the sled was turned up, like a scroll, in order to force down and under the bore of soft snow that surged like a wave before it. On the sled, "
+    },
+    {
+      "id": "ulvehunden.txt::chunk2",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "order to force down and under the bore of soft snow that surged like a wave before it. On the sled, securely lashed, was a long and narrow oblong box. There were other things on the sled—blankets, an axe, and a coffee-pot and frying-pan; but prominent, occupying most of the space, was the long and narrow oblong box. In advance of the dogs, on wide snowshoes, toiled a man. At the rear of the sled toiled a second man. On the sled, in the box, lay a third man whose toil was over,—a man whom the Wild had conquered and beaten down until he would never move nor struggle again. It is not the way of the Wild to like movement. Life is an offence to it, for life is movement; and the Wild aims always to destroy movement. It freezes the water to prevent it running to the sea; it drives the sap out of "
+    },
+    {
+      "id": "ulvehunden.txt::chunk3",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "o destroy movement. It freezes the water to prevent it running to the sea; it drives the sap out of the trees till they are frozen to their mighty hearts; and most ferociously and terribly of all does the Wild harry and crush into submission man—man who is the most restless of life, ever in revolt against the dictum that all movement must in the end come to the cessation of movement. But at front and rear, unawed and indomitable, toiled the two men who were not yet dead. Their bodies were covered with fur and soft-tanned leather. Eyelashes and cheeks and lips were so coated with the crystals from their frozen breath that their faces were not discernible. This gave them the seeming of ghostly masques, undertakers in a spectral world at the funeral of some ghost. But under it all they were m"
+    },
+    {
+      "id": "ulvehunden.txt::chunk4",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": " masques, undertakers in a spectral world at the funeral of some ghost. But under it all they were men, penetrating the land of desolation and mockery and silence, puny adventurers bent on colossal adventure, pitting themselves against the might of a world as remote and alien and pulseless as the abysses of space. They travelled on without speech, saving their breath for the work of their bodies. On every side was the silence, pressing upon them with a tangible presence. It affected their minds as the many atmospheres of deep water affect the body of the diver. It crushed them with the weight of unending vastness and unalterable decree. It crushed them into the remotest recesses of their own minds, pressing out of them, like juices from the grape, all the false ardours and exaltations and "
+    },
+    {
+      "id": "ulvehunden.txt::chunk5",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": " minds, pressing out of them, like juices from the grape, all the false ardours and exaltations and undue self-values of the human soul, until they perceived themselves finite and small, specks and motes, moving with weak cunning and little wisdom amidst the play and inter-play of the great blind elements and forces. An hour went by, and a second hour. The pale light of the short sunless day was beginning to fade, when a faint far cry arose on the still air. It soared upward with a swift rush, till it reached its topmost note, where it persisted, palpitant and tense, and then slowly died away. It might have been a lost soul wailing, had it not been invested with a certain sad fierceness and hungry eagerness. The front man turned his head until his eyes met the eyes of the man behind. And t"
+    },
+    {
+      "id": "ulvehunden.txt::chunk6",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "hungry eagerness. The front man turned his head until his eyes met the eyes of the man behind. And then, across the narrow oblong box, each nodded to the other. A second cry arose, piercing the silence with needle-like shrillness. Both men located the sound. It was to the rear, somewhere in the snow expanse they had just traversed. A third and answering cry arose, also to the rear and to the left of the second cry. “They’re after us, Bill,” said the man at the front. His voice sounded hoarse and unreal, and he had spoken with apparent effort. “Meat is scarce,” answered his comrade. “I ain’t seen a rabbit sign for days.” Thereafter they spoke no more, though their ears were keen for the hunting-cries that continued to rise behind them. At the fall of darkness they swung the dogs into a clus"
+    },
+    {
+      "id": "ulvehunden.txt::chunk7",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "ng-cries that continued to rise behind them. At the fall of darkness they swung the dogs into a cluster of spruce trees on the edge of the waterway and made a camp. The coffin, at the side of the fire, served for seat and table. The wolf-dogs, clustered on the far side of the fire, snarled and bickered among themselves, but evinced no inclination to stray off into the darkness. “Seems to me, Henry, they’re stayin’ remarkable close to camp,” Bill commented. Henry, squatting over the fire and settling the pot of coffee with a piece of ice, nodded. Nor did he speak till he had taken his seat on the coffin and begun to eat. “They know where their hides is safe,” he said. “They’d sooner eat grub than be grub. They’re pretty wise, them dogs.” Bill shook his head. “Oh, I don’t know.” His comrade "
+    },
+    {
+      "id": "ulvehunden.txt::chunk8",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "than be grub. They’re pretty wise, them dogs.” Bill shook his head. “Oh, I don’t know.” His comrade looked at him curiously. “First time I ever heard you say anything about their not bein’ wise.” “Henry,” said the other, munching with deliberation the beans he was eating, “did you happen to notice the way them dogs kicked up when I was a-feedin’ ’em?” “They did cut up more’n usual,” Henry acknowledged. “How many dogs ’ve we got, Henry?” “Six.” “Well, Henry . . . ” Bill stopped for a moment, in order that his words might gain greater significance. “As I was sayin’, Henry, we’ve got six dogs. I took six fish out of the bag. I gave one fish to each dog, an’, Henry, I was one fish short.” “You counted wrong.” “We’ve got six dogs,” the other reiterated dispassionately. “I took out six fish. One"
+    },
+    {
+      "id": "ulvehunden.txt::chunk9",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "ounted wrong.” “We’ve got six dogs,” the other reiterated dispassionately. “I took out six fish. One Ear didn’t get no fish. I came back to the bag afterward an’ got ’m his fish.” “We’ve only got six dogs,” Henry said. “Henry,” Bill went on. “I won’t say they was all dogs, but there was seven of ’m that got fish.” Henry stopped eating to glance across the fire and count the dogs. “There’s only six now,” he said. “I saw the other one run off across the snow,” Bill announced with cool positiveness. “I saw seven.” Henry looked at him commiseratingly, and said, “I’ll be almighty glad when this trip’s over.” “What d’ye mean by that?” Bill demanded. “I mean that this load of ourn is gettin’ on your nerves, an’ that you’re beginnin’ to see things.” “I thought of that,” Bill answered gravely. “An’"
+    },
+    {
+      "id": "ulvehunden.txt::chunk10",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "r nerves, an’ that you’re beginnin’ to see things.” “I thought of that,” Bill answered gravely. “An’ so, when I saw it run off across the snow, I looked in the snow an’ saw its tracks. Then I counted the dogs an’ there was still six of ’em. The tracks is there in the snow now. D’ye want to look at ’em? I’ll show ’em to you.” Henry did not reply, but munched on in silence, until, the meal finished, he topped it with a final cup of coffee. He wiped his mouth with the back of his hand and said: “Then you’re thinkin’ as it was—” A long wailing cry, fiercely sad, from somewhere in the darkness, had interrupted him. He stopped to listen to it, then he finished his sentence with a wave of his hand toward the sound of the cry, “—one of them?” Bill nodded. “I’d a blame sight sooner think that than "
+    },
+    {
+      "id": "ulvehunden.txt::chunk11",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "toward the sound of the cry, “—one of them?” Bill nodded. “I’d a blame sight sooner think that than anything else. You noticed yourself the row the dogs made.” Cry after cry, and answering cries, were turning the silence into a bedlam. From every side the cries arose, and the dogs betrayed their fear by huddling together and so close to the fire that their hair was scorched by the heat. Bill threw on more wood, before lighting his pipe. “I’m thinking you’re down in the mouth some,” Henry said. “Henry . . . ” He sucked meditatively at his pipe for some time before he went on. “Henry, I was a-thinkin’ what a blame sight luckier he is than you an’ me’ll ever be.” He indicated the third person by a downward thrust of the thumb to the box on which they sat. “You an’ me, Henry, when we die, we’l"
+    },
+    {
+      "id": "ulvehunden.txt::chunk12",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "y a downward thrust of the thumb to the box on which they sat. “You an’ me, Henry, when we die, we’ll be lucky if we get enough stones over our carcases to keep the dogs off of us.” “But we ain’t got people an’ money an’ all the rest, like him,” Henry rejoined. “Long-distance funerals is somethin’ you an’ me can’t exactly afford.” “What gets me, Henry, is what a chap like this, that’s a lord or something in his own country, and that’s never had to bother about grub nor blankets; why he comes a-buttin’ round the Godforsaken ends of the earth—that’s what I can’t exactly see.” “He might have lived to a ripe old age if he’d stayed at home,” Henry agreed. Bill opened his mouth to speak, but changed his mind. Instead, he pointed towards the wall of darkness that pressed about them from every sid"
+    },
+    {
+      "id": "ulvehunden.txt::chunk13",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "ed his mind. Instead, he pointed towards the wall of darkness that pressed about them from every side. There was no suggestion of form in the utter blackness; only could be seen a pair of eyes gleaming like live coals. Henry indicated with his head a second pair, and a third. A circle of the gleaming eyes had drawn about their camp. Now and again a pair of eyes moved, or disappeared to appear again a moment later. The unrest of the dogs had been increasing, and they stampeded, in a surge of sudden fear, to the near side of the fire, cringing and crawling about the legs of the men. In the scramble one of the dogs had been overturned on the edge of the fire, and it had yelped with pain and fright as the smell of its singed coat possessed the air. The commotion caused the circle of eyes to sh"
+    },
+    {
+      "id": "ulvehunden.txt::chunk14",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "ght as the smell of its singed coat possessed the air. The commotion caused the circle of eyes to shift restlessly for a moment and even to withdraw a bit, but it settled down again as the dogs became quiet. “Henry, it’s a blame misfortune to be out of ammunition.” Bill had finished his pipe and was helping his companion to spread the bed of fur and blanket upon the spruce boughs which he had laid over the snow before supper. Henry grunted, and began unlacing his moccasins. “How many cartridges did you say you had left?” he asked. “Three,” came the answer. “An’ I wisht ’twas three hundred. Then I’d show ’em what for, damn ’em!” He shook his fist angrily at the gleaming eyes, and began securely to prop his moccasins before the fire. “An’ I wisht this cold snap’d break,” he went on. “It’s be"
+    },
+    {
+      "id": "ulvehunden.txt::chunk15",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "ly to prop his moccasins before the fire. “An’ I wisht this cold snap’d break,” he went on. “It’s ben fifty below for two weeks now. An’ I wisht I’d never started on this trip, Henry. I don’t like the looks of it. I don’t feel right, somehow. An’ while I’m wishin’, I wisht the trip was over an’ done with, an’ you an’ me a-sittin’ by the fire in Fort McGurry just about now an’ playing cribbage—that’s what I wisht.” Henry grunted and crawled into bed. As he dozed off he was aroused by his comrade’s voice. “Say, Henry, that other one that come in an’ got a fish—why didn’t the dogs pitch into it? That’s what’s botherin’ me.” “You’re botherin’ too much, Bill,” came the sleepy response. “You was never like this before. You jes’ shut up now, an’ go to sleep, an’ you’ll be all hunkydory in the mor"
+    },
+    {
+      "id": "ulvehunden.txt::chunk16",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "ever like this before. You jes’ shut up now, an’ go to sleep, an’ you’ll be all hunkydory in the mornin’. Your stomach’s sour, that’s what’s botherin’ you.” The men slept, breathing heavily, side by side, under the one covering. The fire died down, and the gleaming eyes drew closer the circle they had flung about the camp. The dogs clustered together in fear, now and again snarling menacingly as a pair of eyes drew close. Once their uproar became so loud that Bill woke up. He got out of bed carefully, so as not to disturb the sleep of his comrade, and threw more wood on the fire. As it began to flame up, the circle of eyes drew farther back. He glanced casually at the huddling dogs. He rubbed his eyes and looked at them more sharply. Then he crawled back into the blankets. “Henry,” he said"
+    },
+    {
+      "id": "ulvehunden.txt::chunk17",
+      "doc_path": "C:\\Users\\micha\\PythonProjects\\semantic-search-app\\data\\raw_docs\\ulvehunden.txt",
+      "text": "d his eyes and looked at them more sharply. Then he crawled back into the blankets. “Henry,” he said. “Oh, Henry.”"
+    }
+  ]
+}

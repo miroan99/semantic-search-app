@@ -5,7 +5,7 @@ uvicorn[standard]
 pydantic>=2
 sentence-transformers
 faiss-cpu
-tqdm
+openai
 
 # Data science stack
 numpy
