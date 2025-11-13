@@ -1,0 +1,6 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dim": 384,
+  "num_chunks": 199,
+  "distance": "ip_cosine"
+}

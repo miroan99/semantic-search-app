@@ -3,12 +3,13 @@ python-dotenv    # load environment variables from .env
 fastapi
 uvicorn[standard]
 pydantic>=2
-sentence-transformers
-faiss-cpu
-openai
+openai>=1.42.0
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
 
 # Data science stack
 numpy
+tqdm
 
 # Dev tools
 black            # code formatter
