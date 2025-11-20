@@ -8,6 +8,7 @@ from typing import List, Tuple
 
 from dotenv import load_dotenv
 import os
+import openai
 
 import numpy as np
 
@@ -163,6 +164,24 @@ def run_rag(
         print(f"  [{rank}] {ch.get('source','unknown')}::chunk{ch.get('chunk_id', cid)}")
 
 
+def call_model(context: str, query: str) -> str:
+    return _generate_answer_openai(query=query, context=context, model="gpt-4o-mini")
+
+def rag_answer(query: str) -> str:
+    index, chunks = load_faiss_index()
+    q_vec = embed_text(query).reshape(1, -1)
+
+    D, I = index.search(q_vec, 5)
+    ids = I[0]                      # nu: shape (5,)
+
+    context = "\n".join(
+        chunks[int(i)]["text"]      # i er nu et enkelt id
+        for i in ids
+        if i >= 0                   # FAISS kan returnere -1 hvis ingen hit
+    )
+
+    return call_model(context, query)
+
 def main():
     p = argparse.ArgumentParser(description="RAG: FAISS retrieval + LLM generation")
     p.add_argument("query", nargs="?", help="Spørgsmålet du vil stille")
@@ -185,15 +204,16 @@ def main():
                 break
             if not q.strip():
                 break
-            run_rag(q.strip(), top_k=args.topk, model=args.model)
+#           run_rag(q.strip(), top_k=args.topk, model=args.model)
+            print(rag_answer(q.strip()))
         return
 
     if not args.query:
         print("Brug: python -m app.rag_pipeline \"dit spørgsmål\"  (eller --repl)")
         return
 
-    run_rag(args.query, top_k=args.topk, model=args.model)
-
+#   run_rag(args.query, top_k=args.topk, model=args.model)
+    print(rag_answer(args.query))
 
 if __name__ == "__main__":
     # Sikkerhed: tjek for API key

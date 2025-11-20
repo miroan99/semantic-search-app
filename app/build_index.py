@@ -44,7 +44,7 @@ def debug_check_index(model: SentenceTransformer, index, texts):
         print(texts[top_idx][:200].replace("\n", " "), "...")
     print("[debug] ---- INDEX CHECK DONE ----\n")
 
-def main():
+def main_build_index():
     # 1) Indlæs og chunk
     records = []  # [{id, doc_path, text}]
     for p, text in iter_texts(RAW):
@@ -109,4 +109,4 @@ def main():
     debug_check_index(model, index, texts)
 
 if __name__ == "__main__":
-    main()
+    main_build_index()
