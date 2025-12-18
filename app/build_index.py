@@ -1,13 +1,11 @@
-# app/build_index.py
 from pathlib import Path
-import json
 import numpy as np
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 try:
     import faiss  # standard name
 except ModuleNotFoundError:
-    import faiss_cpu as faiss  # Windows faiss-cpu fallback
+    import faiss_cpu as faiss  # Windows fallback
 
 from app.utils import iter_texts, chunk_text, save_meta, normalize_ws
 
@@ -15,9 +13,6 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_docs"
 STORAGE = ROOT / "storage"
 INDEX_DIR = ROOT / "data" / "index"
-
-INDEX_DIR.mkdir(parents=True, exist_ok=True)
-STORAGE.mkdir(parents=True, exist_ok=True)
 
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
@@ -44,69 +39,61 @@ def debug_check_index(model: SentenceTransformer, index, texts):
         print(texts[top_idx][:200].replace("\n", " "), "...")
     print("[debug] ---- INDEX CHECK DONE ----\n")
 
-def main_build_index():
-    # 1) Indlæs og chunk
-    records = []  # [{id, doc_path, text}]
-    for p, text in iter_texts(RAW):
-        if not text:
-            continue
-        for idx, ch in enumerate(chunk_text(text, max_chars=800, overlap=100)):
-            records.append({
-                "id": f"{p.name}::chunk{idx}",
-                "doc_path": str(p),
-                "text": normalize_ws(ch),
-                "source": p.name,
-                "chunk_id": idx,
-            })
-    print(f"Loaded {len(records)} chunks from text files")
-    if not records:
-        raise SystemExit("Ingen tekster fundet i data/raw_docs")
-
-    # 2) Embeddings (én model-init)
-    print(f"Loading model: {MODEL_NAME}")
+def build_faiss_index():
     model = SentenceTransformer(MODEL_NAME)
-    texts = [r["text"] for r in records]
-    print(f"Encoding {len(texts)} chunks...")
-    embs = model.encode(
+
+    texts = []
+    metas = []
+
+    for path, text in iter_texts(RAW):
+        for chunk_id, chunk in enumerate(chunk_text(text)):
+            chunk = normalize_ws(chunk)
+            texts.append(chunk)
+            metas.append(
+                {
+                    "source": str(path),
+                    "chunk_id": chunk_id,
+                    "text": chunk,
+                }
+            )
+
+    # Embeddings
+    print(f"Embedding {len(texts)} chunks ...")
+    embeddings = model.encode(
         texts,
-        batch_size=64,
-        convert_to_numpy=True,
+        batch_size=32,
         show_progress_bar=True,
-        normalize_embeddings=True,
+        convert_to_numpy=True,
+        normalize_embeddings=False,  # vi styrer selv normalisering
     ).astype("float32")
-    dim = int(embs.shape[1])
 
-    # 3) FAISS index (cosine via IP + normaliserede vektorer)
-    index = faiss.IndexFlatIP(dim)
-    index.add(embs)
+    dim = embeddings.shape[1]
 
-    # 4) Gem index + chunk-metadata i formater som rag_pipeline/utils forventer
-    faiss.write_index(index, str(INDEX_DIR / "docs.index"))  # <-- matcher utils.load_faiss_index
-    # Gem chunk-liste (korte felter)
-    chunks = [{"source": r["source"], "chunk_id": r["chunk_id"], "text": r["text"]} for r in records]
-    (INDEX_DIR / "chunks_meta.json").write_text(
-        json.dumps(chunks, indent=2, ensure_ascii=False), encoding="utf-8"
-    )
+    # Vælg index-type
+    # Brug IP + normalisering hvis du vil have cosine-lignende adfærd
+    use_ip = True  # sæt til False hvis du vil bruge L2
 
-    # (valgfrit) debug/inspektionsfiler
-    (INDEX_DIR / "chunks.txt").write_text("\n".join(t.replace("\n", " ") for t in texts), encoding="utf-8")
-    np.save(INDEX_DIR / "embeddings.npy", embs)
+    if use_ip:
+        index = faiss.IndexFlatIP(dim)
+        # *** VIGTIGT ***: normalisér embeddings til længde 1 (L2-norm)
+        norms = np.linalg.norm(embeddings, axis=1, keepdims=True) + 1e-12
+        embeddings = embeddings / norms
+    else:
+        index = faiss.IndexFlatL2(dim)
+        # ingen normalisering for L2
 
-    # 5) Gem index-meta med korrekt signatur
-    save_meta({
-        "embedding_model": MODEL_NAME,
-        "dim": dim,
-        "num_chunks": len(chunks),
-        "distance": "ip_cosine",  # oplysning til senere
-    }, name="index_meta.json")
+    print("Adding vectors to index ...")
+    index.add(embeddings)
 
-    print(f"[done] Indexed {len(chunks)} chunks with dim={dim}")
-    print(f"[saved] {INDEX_DIR/'docs.index'}")
-    print(f"[saved] {INDEX_DIR/'chunks_meta.json'}")
-    print(f"[saved] {INDEX_DIR/'index_meta.json'}")
+    # Gem index + metadata
+    INDEX_DIR.mkdir(parents=True, exist_ok=True)
+    faiss.write_index(index, str(INDEX_DIR / "docs.index"))
+    save_meta(STORAGE / "index_meta.jsonl", metas)
+
+    print("Done. Index size:", index.ntotal)
 
     # 6) Self-check
-    debug_check_index(model, index, texts)
+    #(model, index, texts)
 
 if __name__ == "__main__":
-    main_build_index()
+    build_faiss_index()

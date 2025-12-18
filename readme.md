@@ -32,3 +32,6 @@ Dette mini-projekt (Day 6 i *AI Application Development Plan*) viser hvordan man
    # Windows PowerShell
    .venv\Scripts\Activate
    # source .venv/bin/activate
+
+## To build index data, run:
+python -m app.build_index
