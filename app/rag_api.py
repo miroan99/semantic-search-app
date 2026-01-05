@@ -16,7 +16,7 @@ else:
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 # Import after key is validated (so rag_pipeline can also find it)
-from .rag_pipeline import answer_query
+from rag_pipeline import answer_query
 app = FastAPI(title="Day 7 – RAG QA API")
 
 if not OPENAI_API_KEY:

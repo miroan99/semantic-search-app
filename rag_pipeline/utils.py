@@ -1,4 +1,12 @@
-# app/utils.py
+from pathlib import Path
+
+def read_textxx(path: str) -> str:
+    return Path(path).read_text(encoding="utf-8")
+
+def write_textxx(path: str, text: str) -> None:
+    Path(path).write_text(text, encoding="utf-8")
+
+# rag_pipeline/utils.py
 from pathlib import Path
 import json
 import numpy as np
@@ -65,13 +73,13 @@ def chunk_text(text: str, max_chars: int = 800, overlap: int = 100):
 
     return chunks
 
-def save_meta(path: Path, metas: List[Dict[str, Any]]) -> None:
+def save_meta(path: Path, meta: Dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        for m in metas:
-            f.write(json.dumps(m, ensure_ascii=False) + "\n")
+    path.write_text(
+        json.dumps(meta, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     print(f"[saved] {path}")
-
 
 def embed_text(text: str | list[str]) -> np.ndarray:
     """Return embedding(s) as np.ndarray (n, dim)."""
@@ -92,10 +100,12 @@ def load_faiss_index():
             chunks.append(json.loads(line))
     return index, chunks
 
-def load_meta(name="index_meta.json") -> dict:
-    """Load metadata if available."""
-    path = INDEX_DIR / name
-    if not path.exists():
+import json
+from pathlib import Path
+
+def load_meta(index_dir: Path) -> dict:
+    p = index_dir / "meta.json"
+    if not p.exists():
         return {}
-    return json.loads(path.read_text(encoding="utf-8"))
+    return json.loads(p.read_text(encoding="utf-8"))
 

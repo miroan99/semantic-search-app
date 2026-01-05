@@ -5,7 +5,7 @@ import argparse
 import json
 from pathlib import Path
 from collections import defaultdict
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Any
 
 from dotenv import load_dotenv
 import os
@@ -16,13 +16,13 @@ try:
 except ModuleNotFoundError:
     import faiss_cpu as faiss
 
-MIN_SCORE = 0.05  # juster efter behov
-TOP_K = 5         # standard top-k
+MIN_SCORE = 0.15  # juster efter behov
+TOP_K = 30         # standard top-k
 
 # ⬇️ Disse utils forventes at findes fra dit indeks-arbejde (samme som du brugte i build/query)
 # Sørg for at embed_text, load_faiss_index og load_meta findes i utils.py.
 # Hvis dine navne afviger, så ret importerne her.
-from app.utils import embed_text, load_faiss_index
+from rag_pipeline.utils import embed_text, load_faiss_index, load_meta
 
 load_dotenv()
 
@@ -35,7 +35,7 @@ DATA = ROOT / "data"
 INDEX_DIR = DATA / "index"
 
 def _ensure_meta() -> dict:
-    return {}
+    return load_meta(INDEX_DIR)
 
 def _retrieve(
     index: faiss.Index,
@@ -100,7 +100,7 @@ def _format_context(chunks, ids, scores, max_chars: int = 4000) -> str:
 
         header = (
             f"[doc#{rank} score={score:.3f} "
-            f"src={meta['source']} chunk={meta['chunk_id']}]\n"
+            f"rag_pipeline={meta['source']} chunk={meta['chunk_id']}]\n"
         )
         piece = header + text + "\n\n"
 
@@ -127,6 +127,16 @@ def _print_hits(chunks, ids, scores):
         print(f"{rank}. [score={score:.3f}] {meta['source']}::chunk{meta['chunk_id']}")
         print(f"   {preview}...")
 
+def _get_hits(chunks, ids, scores) -> list[str]:
+    ids = _as_list(ids)
+    scores = _as_list(scores)
+    result_list = []
+    for rank, (cid, score) in enumerate(zip(ids, scores), start=1):
+        meta = chunks[cid]
+        preview = meta["text"][:120].replace("\n", " ")
+        result_list.append(f"{rank}. [score={score:.3f}] {meta['source']}::chunk{meta['chunk_id']}\n   {preview}...")
+    return result_list
+
 def _generate_answer_openai(query: str, context: str, model: str = "gpt-4o-mini") -> str:
     # Kræver: pip install openai>=1.0.0 og env var OPENAI_API_KEY sat
     from openai import OpenAI
@@ -136,15 +146,16 @@ def _generate_answer_openai(query: str, context: str, model: str = "gpt-4o-mini"
         {
             "role": "system",
             "content": (
-                "Du er en hjælper, der svarer KUN med information fra konteksten. "
-                "Hvis noget ikke står i konteksten, så sig kort at det ikke fremgår."
+                "Du skal besvare spørgsmålet ved at SAMMENFATTE information fra konteksten. "
+                "Du må gerne drage forsigtige konklusioner, hvis de tydeligt kan udledes "
+                "af flere tekststykker. Hvis noget ikke kan udledes af konteksten, så sig det."
             ),
         },
         {
             "role": "user",
             "content": (
                 "Kontekst er angivet nedenfor. Hver blok starter med metadata i kantede parenteser, "
-                "fx [doc#1 score=0.823 src=... chunk=12]. "
+                "fx [doc#1 score=0.823 rag_pipeline=... chunk=12]. "
                 "Hvis du citerer noget, så henvis til blokken ved dens doc-nummer.\n\n"
                 f"{context}\n\n"
                 f"Spørgsmål: {query}"
@@ -161,8 +172,7 @@ def run_rag(
     model: str = "gpt-4o-mini",
     max_context_chars: int = 6000,
     debug: bool = False,
-) -> None:
-    meta = _ensure_meta()
+) -> Dict[str, Any]:
 
     # 1) Load index + chunks
     index, chunks = load_faiss_index()  # forventes at returnere (faiss.Index, List[dict])
@@ -175,6 +185,13 @@ def run_rag(
 
     # 2) Embed query
     q_vec = embed_text(query).reshape(1, -1)  # (1, dim)
+
+    meta = _ensure_meta()
+
+    # Example: enforce embedding dimension match early
+    expected_dim = meta.get("embedding_dim")
+    if expected_dim is not None and q_vec.shape[1] != expected_dim:
+        raise ValueError(f"Query dim={q_vec.shape[1]} but index expects {expected_dim}. Rebuild index.")
 
     # 3) Dimensionstjek
     idx_dim = index.d
@@ -190,8 +207,7 @@ def run_rag(
     # 4a) Retrieve
     scores, ids = _retrieve(index, q_vec, top_k=top_k, min_score=MIN_SCORE)
     if not ids:
-        print("Ingen relevante dokumenter fundet (under MIN_SCORE).")
-        return
+        return {"answer": "Ingen relevante dokumenter fundet (under MIN_SCORE).", "hits": []}
 
     # DEBUG: vis FAISS-resultater
     if debug:
@@ -202,11 +218,11 @@ def run_rag(
     reranked_ids = llm_rerank(query, chunks, ids, scores, model=model)
 
     # 4c) Brug reranked rækkefølge
-    #final_ids = reranked_ids
-    #final_scores = [scores[ids.index(cid)] for cid in final_ids]
+    final_ids = reranked_ids
+    final_scores = [scores[ids.index(cid)] for cid in final_ids]
 
-    final_ids = ids
-    final_scores = scores
+    #final_ids = ids
+    #final_scores = scores
 
     print("[DEBUG] final_ids_len =", len(final_ids), "final_ids_len =", len(final_ids))
 
@@ -216,7 +232,7 @@ def run_rag(
         print("[RERANKED SCORES]", final_scores)
 
     # 5) Vis hits (i reranked rækkefølge)
-    _print_hits(chunks, final_ids, final_scores)
+    hit_list =_get_hits(chunks, final_ids, final_scores)
 
     ranked = rank_sources(final_ids, final_scores, chunks)
     print("\n[Kilder ranket]")
@@ -230,14 +246,20 @@ def run_rag(
     answer = _generate_answer_openai(query, context, model=model)
 
     # 8) Udskriv
-    print("[SVAR]")
-    print(answer)
-    print("\n[Kilder]")
-    for rank, cid in enumerate(final_ids, start=1):
-        if cid < 0:
-            continue
-        ch = chunks[cid]
-        print(f"  [{rank}] {ch.get('source','unknown')}::chunk{ch.get('chunk_id', cid)}")
+    #print("[SVAR]")
+    #print(answer)
+    #print("\n[Kilder]")
+    #for rank, cid in enumerate(final_ids, start=1):
+    #    if cid < 0:
+    #        continue
+    #    ch = chunks[cid]
+    #    print(f"  [{rank}] {ch.get('source','unknown')}::chunk{ch.get('chunk_id', cid)}")
+
+    # 8) return result
+    return{
+        "answer": answer,
+        "hits": hit_list
+    }
 
 
 def llm_rerank(query: str, chunks: List[Dict], ids: List[int], scores: List[float], model):
@@ -388,13 +410,8 @@ def main():
         return
 
     if not args.query:
-        print("Brug: python -m app.rag_pipeline \"dit spørgsmål\"  (eller --repl)")
+        print("Brug: python -m rag_pipeline \"dit spørgsmål\"  (eller --repl)")
         return
 
     run_rag(args.query, top_k=args.topk, model=args.model, debug=args.debug)
 
-if __name__ == "__main__":
-    # Sikkerhed: tjek for API key
-    if not os.getenv("OPENAI_API_KEY"):
-        print("Advarsel: OPENAI_API_KEY er ikke sat. Sæt den før kørsel.")
-    main()

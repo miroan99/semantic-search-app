@@ -1,5 +1,7 @@
+from datetime import datetime
 from pathlib import Path
 import numpy as np
+from sympy.codegen.cnodes import sizeof
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 try:
@@ -7,7 +9,7 @@ try:
 except ModuleNotFoundError:
     import faiss_cpu as faiss  # Windows fallback
 
-from app.utils import iter_texts, chunk_text, save_meta, normalize_ws
+from rag_pipeline.utils import iter_texts, chunk_text, save_meta, normalize_ws
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_docs"
@@ -86,14 +88,20 @@ def build_faiss_index():
     index.add(embeddings)
 
     # Gem index + metadata
+    chunk_stat = chunk_text.__defaults__  # (800, 100)
+
+    meta = {
+        "embedding_model": MODEL_NAME,
+        "embedding_dim": int(index.d),
+        "chunk_size": chunk_stat[0],
+        "chunk_overlap": chunk_stat[1],
+        "built_at": datetime.now().isoformat(timespec="seconds"),
+        "num_chunks": len(texts),
+    }
     INDEX_DIR.mkdir(parents=True, exist_ok=True)
     faiss.write_index(index, str(INDEX_DIR / "docs.index"))
-    save_meta(STORAGE / "index_meta.jsonl", metas)
-
+    save_meta(INDEX_DIR / "meta.json", meta)
     print("Done. Index size:", index.ntotal)
-
-    # 6) Self-check
-    #(model, index, texts)
 
 if __name__ == "__main__":
     build_faiss_index()
