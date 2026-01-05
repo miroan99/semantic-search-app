@@ -1,8 +1,0 @@
-{
-  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
-  "embedding_dim": 384,
-  "chunk_size": 800,
-  "chunk_overlap": 100,
-  "built_at": "2026-01-05T19:44:18",
-  "num_chunks": 251
-}

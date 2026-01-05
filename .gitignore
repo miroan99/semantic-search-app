@@ -5,6 +5,9 @@ __pycache__/
 dist/
 build/
 
+#FAISS index / generated data
+data/index
+
 # Virtual environments
 .venv/
 venv/
